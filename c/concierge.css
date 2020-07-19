@@ -1,0 +1,1069 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#concierge, #concierge h1, #concierge h2, #concierge h3, #uconcierge h4, #concierge h5, #concierge h6 {
+    font-family: 'Proxima Nova';
+}
+/* ==== Section 1 ==== */
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 560px;
+	margin-top: -80px;
+}
+
+#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 560px;
+	margin-top: -80px;
+}
+
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 110px 0 3em 18px;
+    width: 52%;
+    float: right;
+}
+#concierge .concierge-section-1 img {
+    width: 85%;
+}
+#concierge .concierge-section-1 h2 {
+    color: #111;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 24px 0px 34px 14px;
+}
+
+
+#concierge .concierge19-section-1 img {
+    width: 85%;
+}
+#concierge .concierge19-section-1 h2 {
+    color: #111;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 24px 0px 34px 14px;
+}
+
+.conc {
+    font-size: 21px;
+    margin-left: 14px;
+}
+/* ==== Section 1b ==== */
+#concierge .concierge-section-1b {
+    padding: 0px 40px 20px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+#concierge .concierge-section-1b h3, #concierge .concierge-section-1b h4 {
+    text-align: center;
+    margin: 0 auto;
+}
+#concierge .concierge-section-1b h3 {
+    color: #00aeef;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+#concierge .concierge-section-1b h4 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #111;
+}
+.concierge-icons {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 12px;
+}
+.c-icons {
+    padding: 1em 2em;
+    width: 33.33333%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+.c-icons img {
+    width: 40%
+}
+.c-icons h5 {
+    color: #111;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.c-icons p {
+    color: #111;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+/* ==== Section 2 ==== */
+#concierge .concierge-section-2 {
+    padding: 22px 40px 34px;
+    text-align: center;
+    background-color: #eee;
+    background: #eee url("../i/concierge/bell-bg.png") no-repeat center 12px;
+    background-size: 96%;
+    position: relative;
+    height: auto;
+}
+#concierge .concierge-section-2 text {
+    width: 900px;
+}
+#concierge .concierge-section-2 h3 {
+    color: #45b941;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#concierge .concierge-section-2 p {
+    color: #111;
+    font-size: 16px;
+}
+#concierge .concierge-section-2 h4 {
+    color: #111;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 22px 0 32px;
+}
+#concierge .concierge-section-2 .mj-btn.purple.mjb {
+    margin-top: 356px;
+}
+.conc2 {
+    font-size: 21px;
+}
+/* ==== End Section 2 ==== */
+
+/* ==== Section 3 ==== */
+
+#concierge .concierge-section-3 {
+    padding: 22px 40px 34px;
+    margin-right: 20px;
+    background: white;
+}
+#concierge .concierge-section-3 .agents {
+    padding: 0 0 21px;
+}
+#concierge .concierge-section-3 h3 {
+    color: #7b1fa6;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.top {
+    margin-top: 4px;
+    padding-left: 0;
+}
+.middle {
+    margin-top: 16px;
+    padding-left: 0;
+}
+#concierge .concierge-section-3 p {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    width: auto;
+    text-align: left;
+    margin: 0;
+}
+#concierge .concierge-section-3 .agent {
+    padding-right: 0;
+    padding-left: 0px;
+}
+#concierge .concierge-section-3 img {
+    width: 65%;
+    vertical-align: top !important;
+    margin-left: 28px;
+}
+.name-purple {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #7b1fa6;
+}
+.name-blue {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #00aeef;
+}
+.name-green {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    color: #45b941;
+}
+/* ==== End Section 3 ==== */
+
+/* ==== Section 4 ==== */
+
+#concierge .concierge-section-4 {
+    text-align: left;
+    padding: 22px 40px 34px;
+    background-color: #eee;
+}
+#concierge .concierge-section-4 .text {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#concierge .concierge-section-4 h4 {
+    color: #7b1fa6;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-top: 14px;
+    margin-bottom: 3px;
+}
+
+#concierge .concierge-section-4 h5 {
+    color: #111;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight:normal;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+#concierge .concierge-section-4 p {
+    color: #111;
+    font-size: 14px;
+    line-height: 17px;
+}
+#concierge .concierge-section-4 a {
+    font-size: 14px;
+    line-height: 16px !important;
+    font-weight: 500;
+    color: #00aeef;
+}
+/* ==== End Section 4 ==== */
+
+/* ==== Section 4b ==== */
+
+#concierge .concierge-section-4b {
+    text-align: left;
+    padding: 20px 4px 24px;
+    background-color: #dddddd;
+}
+#concierge .concierge-section-4b .text {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#concierge .concierge-section-4b h4 {
+    color: #111;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+#concierge .concierge-section-4b li {
+    color: #111;
+    font-size: 12px;
+    line-height: 16px;
+}
+#concierge .concierge-section-4b a {
+    font-size: 12px;
+    color: #111;
+    text-decoration: underline;
+}
+#concierge .concierge-section-4b .limits {
+    margin-left: -24px;
+}
+
+/* ==== End Section 4b ==== */
+
+
+
+@media (max-width: 990px) {
+/* === Section 1 === */
+	
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 400px;
+	margin-top: -42px;
+}
+    
+#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 400px;
+	margin-top: -42px;
+}
+    
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 42px 0 5em 10px;
+    width: 50%;
+    float: right;
+}
+    
+#concierge .concierge-section-1 img {
+    width: 72%;
+}
+    
+#concierge .concierge-section-1 h2 {
+    color: #111;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    margin: 18px 0px 22px 14px;
+}
+    
+#concierge .concierge19-section-1 img {
+    width: 72%;
+}
+#concierge .concierge19-section-1 h2 {
+    color: #111;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 500;
+    margin: 18px 0px 22px 14px;
+}    
+.conc {
+    font-size: 18px;
+}
+
+/* ==== Section 1b ==== */	
+	
+.c-icons img {
+    width: 50%
+}
+/* ==== Section 2 ==== */
+#concierge .concierge-section-2 {
+    padding: 22px 40px 34px;
+    text-align: center;
+    background-color: #eee;
+    background: #eee url("../i/concierge/bell-bg.png") no-repeat center 52px;
+    background-size: 1300px;
+    position: relative;
+    height: auto;
+}
+/* ==== End Section 2 ==== */
+	
+	
+/* ==== Section 3 ==== */
+#concierge .concierge-section-3 img {
+    width: 72%;
+    vertical-align: top !important;
+    margin-left: 10px;
+}
+/* ==== End Section 3 ==== */
+	
+/* ==== Section 4 ==== */
+	
+#concierge .concierge-section-4 .text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ==== Section END 4 ==== */
+	
+	/* ==== Section 4b ==== */
+#concierge .concierge-section-4b .text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ==== End Section 4b ==== */
+	
+}
+
+@media (max-width: 767px) {
+/* === Section 1 === */
+
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 300px;
+	margin-top: -10px;
+}
+    
+#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 300px;
+	margin-top: -20px;
+}
+    
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 45px 0 3em 10px;
+    width: 50%;
+    float: right;
+}
+#concierge .concierge-section-1 img {
+    width: 80%;
+}
+#concierge .concierge-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 6px 0 8px 10px;
+}
+    
+#concierge .concierge19-section-1 img {
+    width: 80%;
+}
+#concierge .concierge19-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 6px 0 8px 10px;
+}
+    
+.conc {
+    font-size: 13px;
+    padding: 8px 8px;
+    margin-left: 10px;
+}
+/* === Section 1b === */
+	
+#concierge .concierge-section-1b {
+    padding: 0px 40px 20px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+#concierge .concierge-section-1b h3, #concierge .concierge-section-1b h4 {
+    text-align: center;
+    margin: 0 auto;
+}
+#concierge .concierge-section-1b h3 {
+    color: #00aeef;
+    font-size: 34px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+}
+#concierge .concierge-section-1b h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+}
+.concierge-icons {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 12px;
+}
+.c-icons {
+    padding: 1em 2em;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+.c-icons img {
+    width: 24%
+}
+.c-icons h5 {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.c-icons p {
+    color: #111;
+    font-size: 17px;
+    line-height: 19px;
+    font-weight: 400;
+}
+/* ==== Section 2 ==== */
+#concierge .concierge-section-2 {
+    padding: 22px 40px 34px;
+    text-align: center;
+    background-color: #eee;
+    background: #eee url("../i/concierge/bell-bg.png") no-repeat center 180px;
+    background-size: 150%;
+    position: relative;
+    height: auto;
+}
+#concierge .concierge-section-2 h3 {
+    color: #45b941;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#concierge .concierge-section-2 p {
+    color: #111;
+    font-size: 17px;
+}
+/* ==== End Section 2 ==== */
+	
+/* ==== Section 3 ==== */
+#concierge .concierge-section-3 img {
+    width: 80%;
+    vertical-align: top !important;
+    margin-left: 0px;
+}
+/* ==== End Section 3 ==== */
+	
+/* ==== Section 4 ==== */	
+	
+#concierge .concierge-section-4 .text {
+    margin-left: 18px;
+    margin-right: 20px;
+}
+/* ==== End Section 4 ==== */
+	
+/* ==== Section 4b ==== */
+#concierge .concierge-section-4b .text {
+    margin-left: 50px;
+    margin-right: 20px;
+}
+/* ==== End Section 4b ==== */
+	
+}
+
+@media (max-width: 600px) {
+/* === Section 1 === */
+
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 290px;
+	margin-top: -10px;
+}
+    
+#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 290px;
+	margin-top: -20px;
+}
+    
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 30px 2px 0 8px;
+    width: 52%;
+    float: right;
+}
+#concierge .concierge-section-1 img {
+    width: 78%;
+}
+#concierge .concierge-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 10px 0 12px 10px;
+}
+    
+#concierge .concierge19-section-1 img {
+    width: 78%;
+}
+#concierge .concierge19-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 10px 0 12px 10px;
+}
+    
+.conc {
+    font-size: 13px;
+    padding: 8px 8px;
+    margin-left: 10px;
+}
+/* === Section 1b === */
+	
+#concierge .concierge-section-1b {
+    padding: 0px 40px 14px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+#concierge .concierge-section-1b h3, #concierge .concierge-section-1b h4 {
+    text-align: center;
+    margin: 0 auto;
+}
+#concierge .concierge-section-1b h3 {
+    color: #00aeef;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+#concierge .concierge-section-1b h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #111;
+}
+.concierge-icons {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin-top: 12px;
+}
+.c-icons {
+    padding: 1em 2em;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #fff;
+}
+.c-icons img {
+    width: 30%
+}
+.c-icons h5 {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.c-icons p {
+    color: #111;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+/* ==== Section 2 ==== */
+#concierge .concierge-section-2 {
+    padding: 22px 40px 34px;
+    text-align: center;
+    background-color: #eee;
+    background: #eee url("../i/concierge/bell-bg.png") no-repeat 33px 150px;
+    background-size: 228%;
+    position: relative;
+    height: auto;
+}
+#concierge .concierge-section-2 h3 {
+    color: #45b941;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+#concierge .concierge-section-2 h4 {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 18px 0 24px;
+}
+#concierge .concierge-section-2 p {
+    color: #111;
+    font-size: 16px;
+    line-height: 18px;
+}
+.conc2 {
+    font-size: 18px;
+}
+/* ==== Section 3 ==== */
+	
+#concierge .concierge-section-3 h3 {
+    color: #7b1fa6;
+    font-size: 30px;
+    line-height: 32px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+}
+
+@media (max-width: 510px) {
+/* === Section 1 === */
+
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 220px;
+}
+    
+    #concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 220px;
+}
+	
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 30px 6px 0 6px;
+    width: 52%;
+    float: right;
+}
+#concierge .concierge-section-1 img {
+    width: 78%;
+}
+#concierge .concierge-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 6px 0 6px 10px;
+}
+    
+#concierge .concierge19-section-1 img {
+    width: 78%;
+}
+#concierge .concierge19-section-1 h2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 6px 0 6px 10px;
+}
+    
+.conc {
+    font-size: 12px;
+    padding: 6px 6px;
+    margin-left: 10px;
+}
+	
+#concierge .concierge-section-1b {
+    padding: 0px 10px 14px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+	
+/* ==== Section 2 ==== */
+#concierge .concierge-section-2 {
+    padding: 12px 10px 20px;
+    text-align: center;
+    background-color: #eee;
+    background: #eee url("../i/concierge/bell-bg.png") no-repeat 33px 190px;
+    background-size: 228%;
+    position: relative;
+    height: auto;
+}
+.conc2 {
+    font-size: 16px;
+    padding: 10px 8px;
+}
+/* ==== Section 3 ==== */
+
+#concierge .concierge-section-3 {
+    padding: 12px 10px 20px;
+    margin-right: 0px;
+    background: white;
+}
+.top {
+    margin-top: 0px;
+    padding-left: 0;
+}
+.middle {
+    margin-top: 0px;
+    padding-left: 0;
+}
+/* ==== End Section 3 ==== */	
+	
+/* ==== Section 4 ==== */
+
+#concierge .concierge-section-4 {
+    text-align: left;
+    padding: 12px 10px 20px;
+    background-color: #eee;
+}
+#concierge .concierge-section-4 .text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* ==== End Section 4 ==== */
+	
+#concierge .concierge-section-4b {
+    text-align: left;
+    padding: 12px 10px 20px;
+    background-color: #dddddd;
+}
+#concierge .concierge-section-4b .text {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+
+@media (max-width: 480px) {
+	
+	#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 220px;
+}
+    
+	#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm19.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 220px;
+}
+    
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 20px 0px 0 20px;
+    width: 51%;
+    float: right;
+}
+}
+
+@media (max-width: 420px) {
+/* === Section 1 === */
+
+#concierge .concierge-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm.jpg") no-repeat -8px 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 210px;
+	margin-top: 0;
+}
+    
+#concierge .concierge19-section-1 {
+    background: #e4e8f1 url("../i/concierge/hero-img_sm19.jpg") no-repeat -8px 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 210px;
+	margin-top: 0;
+}
+    
+#concierge .hero-concierge {
+    margin: 0;
+    padding: 24px 0px 0 20px;
+    width: 50%;
+    float: right;
+}
+#concierge .concierge-section-1 h2 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 6px 0 6px 10px;
+}
+#concierge .concierge-section-1 img {
+    margin-left: 4px;
+}
+    
+    #concierge .concierge19-section-1 h2 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    margin: 6px 0 6px 10px;
+}
+#concierge .concierge19-section-1 img {
+    margin-left: 4px;
+}
+	
+}
+
+
+@media (max-width: 320px) {
+	#concierge .concierge-section-1 {
+    background: white url("../i/concierge/hero-img_sm.jpg") no-repeat -8px 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative !important;
+    height: 200px;
+}
+
+	#concierge .concierge19-section-1 {
+    background: white url("../i/concierge/hero-img_sm19.jpg") no-repeat -8px 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative !important;
+    height: 200px;
+}
+}
+
+/* === HOLIDAY 18 === */
+
+#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat left -170px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 660px;
+	margin-top: -80px;
+}
+
+#concierge .hero-concierge-holiday {
+    margin: 0;
+    padding: 110px 0 3em 30px;
+    width: 52%;
+    float: right;
+}
+
+#concierge .concierge-holiday img {
+    width: 83%;
+}
+#concierge .concierge-holiday h2 {
+    color: #111;
+    font-size: 24px;
+    line-height: 28px;
+	font-weight: normal;
+	margin: 24px 0px 34px 20px;
+	width: 450px;
+	}
+
+#concierge .concierge-holiday h2 span{
+	color: #7b1fa6;
+    font-weight: 700;
+}
+
+.conc-holiday {
+    font-size: 21px;
+    margin-left: 20px;
+}
+
+@media (max-width: 1400px) {
+	#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat left -80px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 580px;
+	margin-top: -80px;
+}
+}
+
+@media (max-width: 990px) {
+	#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat center -70px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 442px;
+	margin-top: -20px;}
+	
+	#concierge .concierge-holiday img {
+    width: 80%;
+}
+#concierge .concierge-holiday h2 {
+    color: #111;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    margin: 14px 0px 34px 14px;
+	width: auto;
+}
+	#concierge .hero-concierge-holiday {
+    margin: 0;
+    padding: 60px 0 3em 30px;
+    width: 52%;
+    float: right;
+}
+}
+
+@media (max-width: 767px) {
+	#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat center -80px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 300px;
+	margin-top: -20px;}
+	
+	#concierge .concierge-holiday img {
+    width: 72%;
+}
+#concierge .concierge-holiday h2 {
+    color: #111;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin: 8px 0px 14px 14px;
+	}
+	
+	#concierge .hero-concierge-holiday {
+    margin: 0;
+    padding: 40px 0 3em 30px;
+    width: 52%;
+    float: right;
+}
+	
+	.conc-holiday {
+	font-size: 12px;
+	margin-left: 10px;
+	padding: 12px 16px;
+}
+}
+
+@media (max-width: 600px) {
+	#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat center -16px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 260px;
+	margin-top: 0px;}
+	
+	#concierge .hero-concierge-holiday {
+    margin: 0;
+    padding: 18px 0 3em 20px;
+    width: 52%;
+    float: right;
+}
+}
+
+@media (max-width: 420px) {
+	#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat center 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 260px;
+	margin-top: 0px;}
+}
+
+@media (max-width: 320px) {
+		#concierge .concierge-holiday{
+	background: #d5dadd url("../i/holiday-18/concierge-hero-hol18.jpg") no-repeat left 0px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+	overflow: auto;
+    height: 210px;
+	margin-top: 0px;}
+
+#concierge .concierge-holiday h2 {
+    color: #111;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    margin: 6px 0px 10px 10px;
+	}
+}
+
+/* === / END HOLIDAY 18 === */
+
+

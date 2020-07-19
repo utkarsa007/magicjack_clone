@@ -1,0 +1,244 @@
+
+/* Variables */
+/* Variables */
+/*Colors */
+/* Fonts */
+/*mixins*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+.clearfix-ie {
+  clear: both;
+  height: 1px;
+  display: block;
+}
+#hero {
+  background: #1fa8e3 url("../img/calling-bg.jpg") no-repeat top center;
+  height: auto;
+}
+#hero .row {
+  margin: 120px 0 40px 0;
+}
+#hero .row h1 {
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 46.67px;
+  color: #fff;
+  padding: 18px 0px 18px 0;
+  margin: 2% auto 0;
+}
+@media only screen and (max-width: 1200px) {
+  #hero .row div h1 {
+    padding: 0px 140px 0 140px;
+    margin-top: 1%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #hero .row div h1 {
+    font-size: 36.67px;
+    padding: 0 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #hero .row div h1 {
+    font-size: 26.67px;
+    padding: 0 20px;
+  }
+  #hero .row .video-holder a img {
+    width: 280px;
+    height: 180px;
+  }
+}
+#without-computer .container {
+  padding: 16px 5px;
+  border-bottom: solid 1px #efefef;
+}
+#without-computer h2 {
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin: 0 0 15px;
+}
+#without-computer p {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  color: #8a9598;
+  font-size: 18px;
+}
+#without-computer img.placeholder-full {
+  display: block;
+  width: 100%;
+  margin: 50px auto;
+}
+@media (max-width: 767px) {
+  #without-computer img.placeholder-full {
+    display: none;
+  }
+}
+#without-computer img.placeholder-split {
+  display: none;
+  width: 90%;
+  margin: 30px auto 0;
+}
+@media (max-width: 767px) {
+  #without-computer img.placeholder-split {
+    display: block;
+  }
+}
+#without-computer div.steps {
+  background: #f2f4f5;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  #without-computer div.steps {
+    width: 220px;
+    margin: 30px auto 0;
+  }
+}
+#without-computer div.steps > a {
+  float: left;
+  padding-right: 20px;
+}
+#without-computer div.steps > div {
+  float: left;
+  width: 175px;
+  padding: 20px 20px 0 30px;
+  position: relative;
+}
+@media (max-width: 992px) {
+  #without-computer div.steps > div {
+    width: 240px;
+  }
+}
+@media (max-width: 767px) {
+  #without-computer div.steps > div {
+    float: none;
+    clear: both;
+    width: 200px;
+  }
+}
+#without-computer div.steps > div > span {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  border: solid 1px #ccc;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  color: #000;
+  background: #fff;
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+#without-computer div.steps > div > p {
+  color: #8a9598;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  line-height: 1.2em;
+}
+#with-computer {
+  padding: 75px 0;
+  border-bottom: solid 1px #efefef;
+}
+#with-computer h2 {
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin: 0 0 15px;
+}
+#with-computer p {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  color: #8a9598;
+  font-size: 18px;
+}
+#with-computer img.placeholder-full {
+  display: block;
+  width: 100%;
+  margin: 50px auto;
+}
+@media (max-width: 767px) {
+  #with-computer img.placeholder-full {
+    display: none;
+  }
+}
+#with-computer img.placeholder-split {
+  display: none;
+  width: 90%;
+  margin: 30px auto 0;
+}
+@media (max-width: 767px) {
+  #with-computer img.placeholder-split {
+    display: block;
+  }
+}
+#with-computer div.steps {
+  background: #f2f4f5;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media (max-width: 767px) {
+  #with-computer div.steps {
+    width: 220px;
+    margin: 30px auto 0;
+  }
+}
+#with-computer div.steps > a {
+  float: left;
+  padding-right: 20px;
+}
+#with-computer div.steps > div {
+  float: left;
+  width: 240px;
+  padding: 30px 20px 0 30px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  #with-computer div.steps > div {
+    float: none;
+    clear: both;
+    width: 200px;
+  }
+}
+#with-computer div.steps > div > span {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  border: solid 1px #ccc;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  color: #000;
+  background: #fff;
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+#with-computer div.steps > div > p {
+  color: #8a9598;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  line-height: 1.2em;
+}
+@media (max-width: 767px) {
+}
+
+#included div.green {
+  color: #45b941;
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin: 25px 0;
+  -webkit-font-smoothing: antialiased;
+}

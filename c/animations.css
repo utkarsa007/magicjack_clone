@@ -1,0 +1,492 @@
+
+/*
+==============================================
+slideLeft - initial slidein cart box
+==============================================
+*/
+
+
+.slideLeft{
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	
+	animation-name: slideLeft;
+	-webkit-animation-name: slideLeft;	
+	-moz-animation-name: slideLeft;
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-timing-function: ease-in-out;
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(150%);
+		opacity: 0;
+	}
+	40%{
+		transform: translateX(-10%);
+		opacity: 1;
+	}
+	65%{
+		transform: translateX(5%);
+		opacity: 1;
+	}
+	/* 80%{
+		transform: translateX(-4%);
+		opacity: 1;
+	}
+	95%{
+		transform: translateX(2%);
+		opacity: 1;
+	} */		
+	100% {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slideLeft {
+	0% {
+		-webkit-transform: translateX(150%);
+		opacity: 0;
+	}
+	50%{
+		-webkit-transform: translateX(-10%);
+		opacity: 1;
+	}
+	65%{
+		-webkit-transform: translateX(5%);
+		opacity: 1;
+	}
+	/* 80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	} */			
+	100% {
+		-webkit-transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes slideLeft {
+	0% {
+		-moz-transform: translateX(150%);
+		opacity: 0;
+	}
+	50%{
+		-moz-transform: translateX(-10%);
+		opacity: 1;
+	}
+	65%{
+		-moz-transform: translateX(5%);
+		opacity: 1;
+	}
+	/* 80%{
+		-webkit-transform: translateX(-4%);
+	}
+	95%{
+		-webkit-transform: translateX(2%);
+	} */			
+	100% {
+		-moz-transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+
+/*
+==============================================
+slideBack - slideback cart box on scroll
+==============================================
+*/
+
+.slideBack{
+	animation-name: slideBack;
+	-webkit-animation-name: slideBack;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes slideBack {
+	0% {
+		transform: translateX(0%);
+		opacity: 1;
+	}			
+	100% {
+		transform: translateX(150%);
+	}	
+}
+
+@-webkit-keyframes slideBack {
+	0% {
+		-webkit-transform: translateX(0%);
+	}			
+	100% {
+		-webkit-transform: translateX(150%);
+	}
+}
+
+
+
+/*
+==============================================
+fadeIn - green add to cart button on scroll
+==============================================
+*/
+
+.fadeIn{
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;	
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		transform: scale(1.1);	
+	}
+	80% {
+		transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	60% {
+		-webkit-transform: scale(1.1);
+	}
+	80% {
+		-webkit-transform: scale(0.9);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+
+
+/*
+==============================================
+pullUp - comparison chart bars
+==============================================
+*/
+
+.pullUp{
+	animation-name: pullUp;
+	-webkit-animation-name: pullUp;	
+
+	animation-duration: 1.1s;	
+	-webkit-animation-duration: 1.1s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%; 
+	
+	visibility: visible !important;
+}
+
+@keyframes pullUp {
+	0% {
+		transform: scaleY(0.1);
+	}
+	40% {
+		transform: scaleY(1.02);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(0.98);
+	}				
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(1);
+	}							
+}
+
+@-webkit-keyframes pullUp {
+	0% {
+		-webkit-transform: scaleY(0.1);
+	}
+	40% {
+		-webkit-transform: scaleY(1.02);
+	}
+	60% {
+		-webkit-transform: scaleY(0.98);
+	}
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}		
+}
+
+
+/*
+==============================================
+stretchRight - try mj intro bar
+==============================================
+*/
+
+.stretchRight{
+	animation-name: stretchRight;
+	-webkit-animation-name: stretchRight;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	
+	/* visibility: visible !important; */
+}
+
+@keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+		opacity: 0;
+	}
+	40% {
+		transform: scaleX(1.02);
+		opacity: 1;
+	}
+	60% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}				
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(1);
+		opacity: 1;
+	}							
+}
+
+@-webkit-keyframes stretchRight {
+	0% {
+		-webkit-transform: scaleX(0.3);
+		opacity: 0;
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+		opacity: 1;
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+		opacity: 1;
+	}				
+	80% {
+		-webkit-transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+		opacity: 1;
+	}		
+}
+
+@-moz-keyframes stretchRight {
+	0% {
+		transform: scaleX(0.3);
+		opacity: 0;
+	}
+	40% {
+		transform: scaleX(1.02);
+		opacity: 1;
+	}
+	60% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}				
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(1);
+		opacity: 1;
+	}							
+}
+
+
+/*
+==============================================
+stretchReup - try mj re-up bar
+==============================================
+*/
+
+.stretchReup{
+	animation-name: stretchReup;
+	-webkit-animation-name: stretchReup;
+	
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+}
+
+@keyframes stretchReup {
+	0% {
+		transform: scaleX(0.3);
+		opacity: 0;
+	}
+	40% {
+		transform: scaleX(1.02);
+		opacity: 1;
+	}
+	60% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(0.98);
+		opacity: 1;
+	}				
+	80% {
+		transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		transform: scaleX(1);
+		opacity: 1;
+	}							
+}
+
+@-webkit-keyframes stretchReup {
+	0% {
+		-webkit-transform: scaleX(0.3);
+		opacity: 0;
+	}
+	40% {
+		-webkit-transform: scaleX(1.02);
+		opacity: 1;
+	}
+	60% {
+		-webkit-transform: scaleX(0.98);
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleX(0.98);
+		opacity: 1;
+	}				
+	80% {
+		-webkit-transform: scaleX(1.01);
+		opacity: 1;
+	}
+	100% {
+		-webkit-transform: scaleX(1);
+		opacity: 1;
+	}		
+}
+

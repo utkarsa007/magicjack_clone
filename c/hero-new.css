@@ -1,0 +1,3810 @@
+/* new home page banner design */
+/* for best scaling. But, we can remove if it causes problems elsewhere */
+html, body {
+  height: 100%;
+}
+#hero {
+  width: 100%;
+  background: url(../img/hero/home2018_sept_bg.jpg) no-repeat;
+  background-position: center -180px;
+  background-size: cover;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero {
+    width: 101%;
+    background: url(../img/hero/home2018_sept_bg.jpg) no-repeat;
+    background-position: center -30px;
+    background-size: cover;
+    font-family: "Proxima Nova";
+    overflow: auto;
+    position: relative;
+  }
+}
+@media (max-width: 990px) {
+  #hero {
+    background-size: 106%;
+    background-position: left 48px;
+  }
+}
+@media (max-width: 767px) {
+  #hero {
+    background-size: 100%;
+    background-position: center -22px;
+  }
+}
+@media (max-width: 480px) {
+  #hero {
+    background-position: center -20px;
+    margin-top: 6%;
+    padding: 54px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero {
+    background-position: center 22px;
+  }
+}
+@media (max-width: 320px) {
+  #hero {
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+.hero-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .hero-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-headline {
+  text-align: center;
+  padding: 0 4em;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .hero-headline {
+    width: 100%;
+    margin-top: 10%;
+    background-color: #a61d24;
+    padding: 1em;
+  }
+}
+.hero-headline h1 {
+  font-family: "Proxima Nova";
+  font-weight: 400;
+  font-size: 4.8vmin;
+  line-height: 5vmin;
+  color: #fff;
+  margin-top: -22px;
+  margin-bottom: 2px;
+}
+@media (max-width: 990px) {
+  .hero-headline h1 {
+    font-size: 4.2vmin;
+  }
+}
+@media (max-width: 480px) {
+  .hero-headline h1 {
+    font-size: 8.2vmin;
+  }
+}
+.hero-promo {
+  padding: 2em;
+  width: 50%;
+  float: right;
+  background: rgba(255, 255, 255, 1.0) url(../img/promo_go_pb2.png) bottom right no-repeat;
+  /* jan 2017 test */
+  background: rgba(255, 255, 255, 1.0) url(../img/promo_go_newyear.png) bottom right no-repeat;
+  background-size: 70%;
+  color: #292929;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+@media (max-width: 767px) {
+  .hero-promo {
+    width: 100%;
+    height: 56.5%;
+    float: none;
+    background-size: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo {
+    padding-bottom: 20em;
+    background-size: 80%;
+    background-position: bottom left;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo {
+    background-size: 100%;
+  }
+}
+.hero-promo h2 {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: -0.2em;
+  line-height: 140%;
+  font-size: 4.6vmin;
+  color: #292929;
+}
+@media (max-width: 480px) {
+  .hero-promo h2 {
+    font-size: 6.6vmin;
+  }
+}
+.hero-promo-nobox {
+  font-family: "Proxima Nova";
+  padding: 0 0 1.15em 0;
+  width: 54%;
+  float: right;
+  color: #292929;
+  background: url(../img/promo_go_blank.png) bottom right no-repeat;
+  background-size: 82%;
+}
+@media (max-width: 990px) {
+  .hero-promo-nobox {
+    background-size: 80%;
+    width: 52%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-nobox {
+    width: 100%;
+    height: 56.5%;
+    float: none;
+    background-size: 72%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-nobox {
+    padding-bottom: 18em;
+    background-size: 110%;
+    background-position: -30px bottom;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-nobox {
+    background-size: 110%;
+    padding-bottom: 15em;
+  }
+}
+.hero-promo-nobox h1 {
+  font-family: "Proxima Nova";
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding-top: 4px;
+}
+.hero-promo-nobox h2 {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: -0.2em;
+  line-height: 140%;
+  font-size: 4.6vmin;
+  color: #292929;
+}
+.hero-promo-nobox ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+  width: 250px;
+}
+@media (max-width: 990px) {
+  .hero-promo-nobox h1 {
+    font-size: 1.5em;
+    padding-top: 4px;
+  }
+  .hero-promo-nobox ul {
+    list-style: none;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+    width: 200px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-nobox h2 {
+    font-size: 6.6vmin;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-promo-nobox ul {
+    width: auto;
+  }
+  .hero-promo-nobox ul {
+    line-height: 20px;
+  }
+}
+.calls-ital {
+  line-height: 18px !important;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.hero-discount {
+  font-size: 3em;
+  font-family: "Proxima Nova";
+  display: block;
+  line-height: 100%;
+  margin-top: 0.1em;
+  font-weight: 700;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.hero-regular {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  font-style: italic;
+  display: block;
+  margin-bottom: 0.5em;
+  font-weight: 200;
+}
+.plus {
+  color: #292929;
+  font-size: 1.2em;
+  display: inline;
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+}
+.regular {
+  font-size: 0.6em;
+  font-style: italic;
+  font-weight: 300;
+  display: block;
+  margin-top: -0.7em;
+  color: #292929;
+}
+@media (max-width: 767px) {
+  .regular {
+    display: inline;
+  }
+}
+.hero-promo ul {
+  margin: 0;
+  padding: 0.8em 1em;
+  width: 60%;
+  line-height: 120%;
+}
+@media (max-width: 480px) {
+  .hero-promo ul {
+    width: 100%;
+  }
+}
+.hero-promo a.mj-btn.green, .hero-promo a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+.phone-hero {
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* MAGICJACKHOME 2019 */
+#hero-home {
+  width: 100%;
+  background: url("../img/hero/home012019.jpg") no-repeat;
+  background-position: center -140px;
+  background-size: cover;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-home {
+    width: 100%;
+    background: url(../img/hero/home012019.jpg) no-repeat;
+    background-position: center -30px;
+    background-size: cover;
+    font-family: "Proxima Nova";
+    overflow: auto;
+    position: relative;
+  }
+}
+@media (max-width: 990px) {
+  #hero-home {
+    background-size: 100%;
+    background-position: left 54px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-home {
+    background-size: 100%;
+    background-position: center -22px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-home {
+    background-position: center -4px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-home {
+    background-position: center 22px;
+  }
+}
+@media (max-width: 320px) {
+  #hero-home {
+    margin-top: 5%;
+    padding: 42px 0 0;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-home {
+  font-family: "Proxima Nova";
+  padding: 6px 0 12px;
+  width: 52%;
+  float: right;
+  color: #292929;
+  background: url(../img/hero/home_switch.png) bottom right no-repeat;
+  background-size: 74%;
+}
+@media (max-width: 990px) {
+  .hero-promo-home {
+    background-size: 70%;
+    width: 52%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-home {
+    width: 100%;
+    height: 56%;
+    float: none;
+    background-size: 58%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-home {
+    padding-bottom: 3em;
+    background-size: 78%;
+    background-position: bottom right;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-home {
+    background-size: 70%;
+  }
+}
+.hero-promo-home h1 {
+  font-family: "Proxima Nova";
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+.hero-promo-home h2 {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: -0.2em;
+  line-height: 140%;
+  font-size: 4.6vmin;
+  color: #292929;
+}
+.hero-promo-home img {
+  width: 340px;
+  margin: 0 0 4px;
+}
+.hero-promo-home ul {
+  list-style: none;
+  margin: 0 0 .7em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 17px;
+  width: 280px;
+}
+.hero-promo-home li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+@media (max-width: 990px) {
+  .hero-promo-home h1 {
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-top: 4px;
+  }
+  .hero-promo-home ul {
+    list-style: none;
+    margin: 0 0 .8em 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 17px;
+    width: 280px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-home h2 {
+    font-size: 6.6vmin;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-promo-home ul {
+    width: 64%;
+  }
+}
+.calls-ital {
+  line-height: 18px !important;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.hero-discount {
+  font-size: 3em;
+  font-family: "Proxima Nova";
+  display: block;
+  line-height: 100%;
+  margin-top: 0.1em;
+  font-weight: 700;
+}
+.msrp19 {
+  margin: 2px 0 8px;
+  font-size: 16px;
+  font-style: italic;
+}
+.phone-hero {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.plus {
+  color: #292929;
+  font-size: 1.2em;
+  display: inline;
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+  .hero-promo-home ul {
+    width: 65%;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-home img {
+    width: 280px;
+    margin: 0 0 4px;
+  }
+  .hero-promo-home h1 {
+    font-weight: 500;
+    font-size: .95em;
+    padding-top: 0px;
+  }
+  .hero-promo-home ul {
+    width: auto;
+  }
+  .phone-hero {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
+.hero-promo-home a.mj-btn.green, .hero-promo-home a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+/* END MAGICJACKHOME 2019 */
+/* MAGICJACKHOME 2020 */
+#hero-home20 {
+  width: 100%;
+  background: url("../img/hero/home0320.jpg") no-repeat;
+  background-position: center -80px;
+  background-size: cover;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-home20 {
+    width: 100%;
+    background: url(../img/hero/home0320.jpg) no-repeat;
+    background-position: center -10px;
+    background-size: cover;
+    font-family: "Proxima Nova";
+    overflow: auto;
+    position: relative;
+  }
+}
+@media (max-width: 990px) {
+  #hero-home20 {
+    background-size: 100%;
+    background-position: left 14px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-home20 {
+    background-size: 100%;
+    background-position: center 22px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-home20 {
+    background-position: center 22px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-home20 {
+    background-position: center 32px;
+  }
+}
+@media (max-width: 320px) {
+  #hero-home20 {
+    margin-top: 5%;
+    background-position: center 42px;
+    padding: 42px 0 0;
+  }
+}
+/* END MAGICJACKHOME 2020 */
+/* SUMMER 2019 */
+#hero-summer {
+  width: 100%;
+  background: url("../img/hero/summer19hero.jpg") no-repeat;
+  background-position: left -120px;
+  background-size: cover;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-summer {
+    background-position: left -56px;
+  }
+}
+@media (max-width: 990px) {
+  #hero-summer {
+    background-size: 102%;
+    background-position: left 13px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-summer {
+    background-size: 100%;
+    background-position: center -22px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-summer {
+    background-position: center -4px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-summer {
+    background-position: center 22px;
+  }
+}
+@media (max-width: 320px) {
+  #hero-summer {
+    margin-top: 5%;
+    padding: 42px 0 0;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-summer {
+  font-family: "Proxima Nova";
+  padding: 0 0 3em 0;
+  width: 65%;
+  float: right;
+  color: #111;
+}
+@media (max-width: 990px) {
+  .hero-promo-summer {
+    width: 65%;
+    padding: 0 0 1.75em 0;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-summer {
+    width: 100%;
+    height: 56%;
+    float: none;
+    background-size: 58%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-summer {
+    padding-bottom: 3em;
+    background-size: 78%;
+    background-position: bottom right;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-summer {}
+}
+.hero-promo-summer h1 {
+  color: #ffba00;
+  font-weight: 500;
+  font-size: 3.1em;
+  padding-top: 14px;
+  margin: 22px 0 2px;
+}
+@media (max-width: 1200px) {
+  .hero-promo-summer h1 {
+    font-size: 2.8em;
+  }
+}
+.hero-promo-summer h2 {
+  font-weight: 600;
+  margin-top: 0;
+  font-size: 2.1em;
+  color: #111;
+  margin-bottom: 0;
+}
+.hero-promo-summer img {
+  width: 260px;
+  margin: 0;
+  padding-bottom: 6px;
+}
+.hero-promo-summer ol {
+  margin: 8px 0 12px 23px;
+  padding: 0;
+  font-size: 17px;
+  line-height: 28px;
+  width: 90%;
+  list-style: disc;
+  list-style-position: outside;
+}
+.msrp-summer {
+  margin: 0px;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .hero-promo-summer h1 {
+    font-size: 2.5em;
+    margin: 10px 0 0px;
+  }
+  .hero-promo-summer h2 {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 1.65em;
+  }
+  .hero-promo-summer img {
+    width: 200px;
+    margin: 0;
+    padding-bottom: 6px;
+  }
+  .hero-promo-summer ol {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .msrp-summer {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-summer h1 {
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-summer h1 {
+    font-size: 2.25em;
+  }
+  .hero-promo-summer h2 {
+    font-size: 2.6em;
+  }
+  .hero-promo-summer img {
+    width: 240px;
+    margin: 0 0 2px;
+    padding-bottom: 0px;
+  }
+  .msrp-summer {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .hero-promo-summer h1 {
+    font-size: 2em;
+  }
+  .hero-promo-summer h2 {
+    font-size: 2em;
+  }
+  .hero-promo-summer img {
+    width: 210px;
+    margin: 0 0 2px;
+    padding-bottom: 0px;
+  }
+  .msrp-summer {
+    font-size: 14px;
+  }
+}
+.phone-hero {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.hero-promo-summer a.mj-btn.blue, .hero-promo-home a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+/* END SUMMER 2019 */
+/* FALL 2019 */
+#hero-fall {
+  width: 100%;
+  background: url("../img/hero/fall2019.jpg") no-repeat;
+  background-position: -280px 70px;
+  background-size: cover;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-fall {
+    background-position: -350px 50px;
+  }
+}
+@media (max-width: 990px) {
+  #hero-fall {
+    background-position: -450px 80px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-fall {
+    background: url("../img/hero/fall2019-2.jpg") no-repeat;
+    background-position: -60px 40px;
+    background-size: 108%;
+  }
+}
+@media (max-width: 480px) {
+  #hero-fall {
+    background-position: -60px 52px;
+    background-size: 108%;
+    padding-top: 21px;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-fall {
+  font-family: "Proxima Nova";
+  padding: 2em 0 0;
+  width: 57%;
+  float: right;
+  color: #111;
+  background: url("../img/hero/fall2019-promo.jpg") bottom right no-repeat;
+  background-size: 50%;
+  margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  .hero-promo-fall {
+    width: 55%;
+    padding: 2.5em 0 2em 1em;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-fall {
+    padding: 2em 0 2em 0em;
+    wodth: 50%
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-fall {
+    width: 97%;
+    float: none;
+    background-size: 44%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-fall {
+    background-size: 52%;
+  }
+}
+.hero-promo-fall img {
+  width: 380px;
+  margin: 0;
+  padding-bottom: 12px;
+}
+.fall-logo {
+  width: 320px !important;
+  margin: 0;
+  padding: 10px 0 !important;
+}
+.hero-promo-fall ol {
+  margin: 0px 0 12px 0px;
+  padding: 6px 0 2px;
+  font-size: 17px;
+  line-height: 24px;
+  width: 62%;
+  list-style: none;
+}
+.phone-hero {
+  margin: 15px 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .hero-promo-fall img {
+    width: 320px;
+    margin: 0;
+    padding-bottom: 6px;
+  }
+  .fall-logo {
+    width: 280px !important;
+    margin: 0;
+    padding: 10px 0 !important;
+  }
+  .hero-promo-fall ol {
+    font-size: 16px;
+    line-height: 26px;
+    width: 68%;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-fall img {
+    display: none;
+  }
+  .fall-logo {
+    width: 380px !important;
+    margin: 0;
+    padding: 16px 0 0;
+    display: inline-block !important;
+  }
+  .hero-promo-fall ol {
+    font-size: 15px;
+    line-height: 20px;
+    width: 74%;
+    padding: 2px 0;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 550px) {
+  .phone-hero2 {
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .fall-logo {
+    width: 360px !important;
+    margin: 0;
+    padding: 12px 0 4px;
+    display: inline-block !important;
+  }
+  .hero-promo-fall ol {
+    font-size: 16px;
+    line-height: 22px;
+    width: 70%;
+  }
+  .phone-hero {
+    margin: 15px 0 26px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-fall ol {
+    width: 80%;
+    line-heigth: 24px;
+    margin-bottom: 20px;
+  }
+  .phone-hero {
+    font-size: 12px;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-fall ol {
+    margin: 0px 0 10px;
+    padding: 3px 0 2px;
+    font-size: 17px;
+    width: 92%;
+    list-style: none;
+  }
+}
+@media (max-width: 380px) {
+  .fall-logo {
+    width: 300px !important;
+  }
+}
+.hero-promo-summer a.mj-btn.blue, .hero-promo-home a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+/* END FALL 2019 */
+/* BLACK FRIDAY 2019 */
+#hero-blkfri {
+  width: 100%;
+  background: url("../img/hero/blkfriday19.jpg") no-repeat;
+  background-position: left 13px;
+  background-size: 94%;
+  background-color: #edf2f4;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1580px) {
+  #hero-blkfri {
+    background-position: -22px 16px;
+    background-size: 102%;
+  }
+}
+@media (max-width: 1250px) {
+  #hero-blkfri {
+    background-position: -94px 62px;
+    background-size: 118%;
+  }
+}
+@media (max-width: 990px) {
+  #hero-blkfri {
+    background-position: -152px 90px;
+    background-size: 149%;
+  }
+}
+@media (max-width: 767px) {
+  #hero-blkfri {
+    background: url("../img/hero/blkfriday19-2.jpg") no-repeat;
+    background-position: center 36px;
+    background-size: 100%;
+    background-color: #fff;
+  }
+}
+@media (max-width: 550px) {
+  #hero-blkfri {
+    background-position: center 60px;
+    padding: 34px 0 0;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-blkfri {
+  font-family: "Proxima Nova";
+  padding: 3.5em 0 3.5em;
+  width: 68%;
+  float: right;
+  color: #111;
+  background: url("../img/hero/blkfriday-device.png") bottom right no-repeat;
+  background-size: 35%;
+}
+@media (max-width: 1500px) {
+  .hero-promo-blkfri {
+    padding: 1.8em 0;
+    width: 60%;
+    background-size: 38%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-blkfri {
+    width: 60%;
+    background-size: 38%;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-blkfri {
+    width: 99%;
+    float: none;
+    background-size: 29%;
+    background-color: #fff;
+    padding: 1.5em 2em 1.2em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-promo-blkfri {
+    background-size: 38%;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-blkfri {
+    background-size: 38%;
+    padding-top: 18px;
+  }
+}
+.hero-promo-blkfri h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 12px 0 0;
+  text-transform: uppercase;
+}
+.hero-promo-blkfri h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: -5px 0 8px;
+}
+.hero-promo-blkfri img {
+  width: 290px;
+  margin: 0;
+}
+.hero-promo-blkfri ul {
+  margin: 0px 0 0px 0px;
+  padding: 6px 0 2px;
+  font-size: 17px;
+  line-height: 19px;
+  width: 62%;
+  list-style: none;
+}
+.hero-promo-blkfri li {
+  margin: 0 0 8px;
+}
+.phone-hero {
+  margin: 15px 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .hero-promo-blkfri ul {
+    font-size: 16px;
+    line-height: 18px;
+    width: 60%;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-promo-blkfri h1 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .hero-promo-blkfri h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: -6px 0 8px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-blkfri ul {
+    font-size: 16px;
+    line-height: 18px;
+    width: 65%;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .hero-promo-blkfri h1 {
+    display: none;
+  }
+  .hero-promo-blkfri h2 {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .phone-hero2 {
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-promo-blkfri ul {
+    font-size: 14px;
+    line-height: 16px;
+    width: 70%;
+  }
+  .hero-promo-blkfri li {
+    margin: 0 0 5px;
+  }
+  .phone-hero {
+    margin: 15px 0 26px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .hero-promo-blkfri img {
+    width: 270px;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-blkfri ul {
+    width: 96%;
+    margin-bottom: 6px;
+  }
+  .phone-hero {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-blkfri ul {
+    width: 70%;
+  }
+}
+.mj-btn.red {
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  background: #d20e0d;
+  border: 1px solid #d20e0d;
+}
+.mj-btn.red:hover {
+  background: #fff;
+  color: #d20e0d;
+  border: solid 1px #d20e0d;
+}
+@media (max-width: 550px) {
+  .mj-btn.red {
+    padding: 10px 16px;
+  }
+}
+/* END BLACK  FRIDAY 2019 */
+/* CYBER MONDAY 2019 */
+#hero-cyber {
+  width: 86%;
+  background: url("../img/hero/cybersale19.png") no-repeat;
+  background-position: 28px 60px;
+  background-size: 84%;
+  background-color: #fff;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1580px) {
+  #hero-cyber {
+    background-position: 28px 98px;
+    background-size: 87%;
+  }
+}
+@media (max-width: 1250px) {
+  #hero-cyber {
+    background-position: 28px 98px;
+    background-size: 100%;
+  }
+}
+@media (max-width: 990px) {
+  #hero-cyber {
+    background-position: 10px 98px;
+    background-size: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #hero-cyber {
+    background: url("../img/hero/cybersale19-2.png") no-repeat;
+    background-position: 10px 94px;
+    background-size: 84%;
+    background-color: #fff;
+    padding: 58px 0 0;
+  }
+}
+@media (max-width: 550px) {
+  #hero-cyber {
+    background-position: 16px 90px;
+    background-size: 94%;
+    background-color: #fff;
+    padding: 86px 0 0;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-cyber {
+  font-family: "Proxima Nova";
+  padding: 1.5em 0 1em;
+  width: 46%;
+  float: right;
+  margin-left: 12px
+}
+@media (max-width: 1250px) {
+  .hero-promo-cyber {
+    width: 40%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-cyber {
+    width: 44%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-cyber {
+    width: 100%;
+    float: none;
+    background-color: #fff;
+    padding: 0 .5em .7em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-promo-cyber {}
+}
+@media (max-width: 415px) {
+  .hero-promo-cyber {}
+}
+.hero-promo-cyber h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 12px 0 0;
+  text-transform: uppercase;
+}
+.hero-promo-cyber h2 {
+  font-size: 55px;
+  font-weight: 500;
+  color: #d20e0d;
+  margin: -5px 0 0px;
+}
+.hero-promo-cyber h3 {
+  font-size: 19px;
+  font-weight: 500;
+  margin: -5px 0 8px;
+  text-transform: uppercase;
+}
+.hero-promo-cyber img {
+  width: 310px;
+  margin: 0;
+}
+.hero-promo-cyber ul {
+  margin: 0px 0 10px;
+  padding: 6px 0 2px;
+  font-size: 16px;
+  line-height: 18px;
+  list-style: none;
+}
+.hero-promo-cyber li {
+  margin: 0 0 4px;
+}
+.phone-hero {
+  margin: 15px 0 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .hero-promo-cyber ul {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .hero-promo-cyber h1 {
+    font-size: 25px;
+  }
+  .hero-promo-cyber h2 {
+    font-size: 50px;
+  }
+  .hero-promo-cyber h3 {
+    font-size: 15px;
+  }
+  .hero-promo-cyber img {
+    width: 290px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-cyber ul {
+    width: 100%;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .hero-promo-cyber img {
+    width: 270px;
+  }
+  .hero-promo-cyber h1 {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .phone-hero2 {
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-promo-cyber ul {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .hero-promo-cyber li {
+    margin: 0 0 6px;
+  }
+  .phone-hero {
+    margin: 15px 0 26px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .hero-promo-cyber img {
+    width: 270px;
+    margin: 0;
+  }
+  .hero-promo-cyber h2 {
+    font-size: 46px;
+  }
+  .hero-promo-cyber h3 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .phone-hero {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .hero-promo-cyber h2 {
+    font-size: 40px;
+  }
+  .hero-promo-cyber img {
+    width: 250px;
+    margin: 0;
+  }
+}
+.mj-btn.red {
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  background: #d20e0d;
+  border: 1px solid #d20e0d;
+}
+.mj-btn.red:hover {
+  background: #fff;
+  color: #d20e0d;
+  border: solid 1px #d20e0d;
+}
+@media (max-width: 550px) {
+  .mj-btn.red {
+    padding: 10px 16px;
+  }
+}
+/* END CYBER MONDAY 2019 */
+/* START HOLIDAY 2019 */
+#hero-hol19 {
+  width: 100%;
+  background: url("../img/hero/holiday19.jpg") no-repeat;
+  background-position: -10px 10px;
+  background-size: 100%;
+  background-color: #eee9e5;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1580px) {
+  #hero-hol19 {
+    background-position: -10px 50px;
+    background-size: 100%;
+  }
+}
+@media (max-width: 1250px) {
+  #hero-hol19 {
+    background-position: -10px 90px;
+    background-size: 100%;
+  }
+}
+@media (max-width: 990px) {
+  #hero-hol19 {
+    background-position: -160px 90px;
+    background-size: 132%;
+  }
+}
+@media (max-width: 767px) {
+  #hero-hol19 {
+    background: url("../img/hero/holiday19-2.jpg") no-repeat;
+    background-position: -20px 16px;
+    background-size: 110%;
+    padding: 8px 0 0;
+  }
+}
+@media (max-width: 550px) {
+  #hero-hol19 {
+    background-position: -110px 2px;
+    background-size: 130%;
+    padding: 40px 0 0;
+  }
+}
+@media (max-width: 420px) {
+  #hero-hol19 {
+    background-position: -52px 32px;
+    background-size: 122%;
+    padding: 45px 0 0;
+  }
+}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 38%;
+  }
+}
+.hero-promo-hol19 {
+  font-family: "Proxima Nova";
+  padding: .15em 0 2em;
+  width: 43%;
+  float: right;
+  color: #111;
+  background: url("../img/hero/holiday19-device.png") bottom right no-repeat;
+  background-size: 42%;
+}
+@media (max-width: 1500px) {
+  .hero-promo-hol19 {
+    padding: 2em 0;
+    width: 44%;
+    background-size: 41%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-hol19 {
+    width: 46%;
+    background-size: 42%;
+    padding-left: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-hol19 {
+    width: 100%;
+    float: none;
+    background-size: 28%;
+    background-color: #fff;
+    padding: 1em 0 0 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-promo-hol19 {
+    background-size: 38%;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-hol19 {
+    background-size: 38%;
+    padding-top: 6px;
+  }
+}
+.hero-promo-hol19 h1 {
+  color: #c6031d;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px 0 6px;
+  text-transform: uppercase;
+}
+.hero-promo-hol19 img {
+  width: 290px;
+  margin: 0;
+}
+.hero-promo-hol19 ul {
+  margin: 0px 0 8px 0px;
+  padding: 6px 0 2px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 62%;
+  list-style: none;
+}
+.hero-promo-hol19 li {
+  margin: 0 0 6px;
+}
+.phone-hero {
+  margin: 15px 0 10px;
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .hero-promo-hol19 ul {
+    font-size: 14px;
+    line-height: 16px;
+    width: 60%;
+  }
+  .phone-hero {
+    margin: 15px 0 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-promo-hol19 h1 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .hero-promo-hol19 img {
+    width: 270px;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-hol19 ul {
+    font-size: 15px;
+    line-height: 17px;
+    width: 60%;
+  }
+  .phone-hero {
+    margin: 15px 0 24px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 550px) {
+  .phone-hero2 {
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .hero-promo-hol19 ul {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .hero-promo-hol19 li {
+    margin: 0 0 5px;
+  }
+  .phone-hero {
+    margin: 15px 0 26px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .hero-promo-hol19 h1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .hero-promo-hol19 img {
+    width: 260px;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-hol19 ul {
+    width: 70%;
+    margin-bottom: 6px;
+  }
+  .phone-hero {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-hol19 ul {
+    width: 65%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.mj-btn.red {
+  border-radius: 5px;
+  color: #fff;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  background: #c6031d;
+  border: 1px solid #c6031d;
+}
+.mj-btn.red:hover {
+  background: #fff;
+  color: #c6031d;
+  border: solid 1px #c6031d;
+}
+@media (max-width: 550px) {
+  .mj-btn.red {
+    padding: 10px 16px;
+  }
+}
+/* END HOLIDAY 2019 */
+/* START HOL SALE 2019 */
+.hero-promo-holsale19 {
+  font-family: "Proxima Nova";
+  padding: .15em 0 2em;
+  width: 43%;
+  float: right;
+  color: #111;
+  background: url("../img/hero/holiday19sale-device.png") bottom right no-repeat;
+  background-size: 42%;
+}
+@media (max-width: 1500px) {
+  .hero-promo-holsale19 {
+    padding: 2em 0;
+    width: 44%;
+    background-size: 41%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-holsale19 {
+    width: 46%;
+    background-size: 42%;
+    padding-left: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-holsale19 {
+    width: 100%;
+    float: none;
+    background-size: 28%;
+    background-color: #fff;
+    padding: 1em 0 0 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 550px) {
+  .hero-promo-holsale19 {
+    background-size: 38%;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-hol19 {
+    background-size: 38%;
+    padding-top: 6px;
+  }
+}
+.hero-promo-holsale19 h1 {
+  color: #c6031d;
+  font-size: 26px;
+  font-weight: 500;
+  margin: 10px 0 6px;
+  text-transform: uppercase;
+}
+.hero-promo-holsale19 img {
+  width: 290px;
+  margin: 0;
+}
+.hero-promo-holsale19 ul {
+  margin: 0px 0 8px 0px;
+  padding: 6px 0 2px;
+  font-size: 16px;
+  line-height: 18px;
+  width: 62%;
+  list-style: none;
+}
+.hero-promo-holsale19 li {
+  margin: 0 0 6px;
+}
+@media (max-width: 990px) {
+  .hero-promo-holsale19 ul {
+    font-size: 14px;
+    line-height: 16px;
+    width: 60%;
+  }
+  .hero-promo-holsale19 h1 {
+    font-size: 23px;
+    font-weight: 500;
+  }
+  .hero-promo-holsale19 img {
+    width: 270px;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-holsale19 ul {
+    font-size: 15px;
+    line-height: 17px;
+    width: 60%;
+  }
+}
+@media (max-width: 550px) {
+  .hero-promo-holsale19 ul {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .hero-promo-holsale19 li {
+    margin: 0 0 5px;
+  }
+  .hero-promo-holsale19 h1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .hero-promo-holsale19 img {
+    width: 260px;
+    margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-holsale19 ul {
+    width: 70%;
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 415px) {
+  .hero-promo-holsale19 ul {
+    width: 65%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+/* END HOL SALE 2019 */
+#promos {
+  overflow: auto;
+  font-family: "Proxima Nova";
+  background-color: #fafafa;
+}
+#promos h1 {
+  font-family: "Proxima Nova";
+  font: normal normal 300 14px;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 36px;
+}
+#promos h2 {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+  padding: 0 1em;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+@media (max-width: 990px) {
+  #promos h2 {
+    padding: 0;
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 767px) {
+  #promos h2 {
+    margin-bottom: 0;
+  }
+}
+.promo {
+  padding: 2em 0;
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  height: 350px;
+}
+@media (max-width: 767px) {
+  .promo {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+}
+.promo a.mj-btn.green {
+  padding: 12px 15px 10px 15px;
+}
+.promo-header {
+  width: 990px;
+  font-family: "Proxima Nova";
+  margin: 0 auto 0 auto;
+  height: 140px;
+  background: url(../img/hero/everyday-hdr-go.png) bottom left no-repeat;
+  background-size: 16%;
+  position: relative;
+}
+.promo-header2 {
+  width: 100%;
+  font-family: "Proxima Nova";
+  padding: 6px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #eee;
+  border-top: 1px solid #e5e5e5;
+}
+.promo-header-text2 {
+  font-family: "Proxima Nova";
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+}
+.promo-header-text2 span {
+  color: #00aeef;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 990px) {
+  .promo-header {
+    width: 100%;
+    margin-left: 12px;
+  }
+  .promo-header-text2 {
+    max-width: 800px;
+  }
+}
+@media (max-width: 767px) {
+  .promo-header {
+    width: 100%;
+    background-size: 0%;
+  }
+  .promo-header-text2 {
+    font-family: "Proxima Nova";
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+  }
+}
+.promo-header-text {
+  font-family: "Proxima Nova";
+  float: left;
+  margin-left: 20%;
+}
+@media (max-width: 990px) {
+  .promo-header-text {
+    margin-left: 18%;
+  }
+}
+@media (max-width: 767px) {
+  .promo-header-text {
+    margin-left: 3px;
+  }
+}
+.promo-header-text h3 {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  text-align: left;
+  font-size: 1.9em;
+  color: #00aeef;
+  line-height: 1em;
+  margin-top: 16px !important;
+}
+.promo-header-text p {
+  font-family: "Proxima Nova";
+  text-align: left;
+  font-size: 1.15em;
+  line-height: .9em;
+  font-weight: 500;
+}
+@media (max-width: 990px) {
+  .promo-header-text p {}
+}
+/* LEFT-ALIGN & IPP PROMO */
+.promo-left {
+  padding: 2em 0;
+  width: 33.33333%;
+  float: left;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  height: 350px;
+}
+.left-hdr {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.9em;
+  margin: 0 6px 4px;
+  color: #7b1fa6;
+  line-height: 30px;
+}
+.promo-left-subhead {
+  padding: 0;
+  font-size: 160%;
+}
+.promo-left img {
+  display: block;
+  width: 88% !important;
+  max-width: 300px !important;
+  margin: 22px auto 36px !important;
+}
+@media (max-width: 767px) {
+  .promo-left {
+    width: 100%;
+    float: none;
+    height: auto;
+    text-align: left;
+    padding-left: 18px;
+  }
+  .left-hdr {
+    font-weight: normal;
+    text-align: left;
+    font-size: 1.9em;
+    margin: 0 0px 4px;
+    color: #7b1fa6;
+    line-height: 30px;
+  }
+  .promo-left-subhead {
+    padding: 0;
+    font-size: 160%;
+    text-align: left;
+  }
+  .promo-left img {
+    display: block;
+    width: 88% !important;
+    max-width: 300px !important;
+    margin: 16px 18px 26px 0 !important;
+  }
+}
+/* END LEFT-ALIGH PROMO */
+/* CONCIERGE PROMO */
+.concierge-header {
+  width: 980px;
+  font-family: "Proxima Nova";
+  margin: 0 auto 0 auto;
+  height: 100px;
+  background: url(../i/home/concierge_logo.png) center left no-repeat;
+  background-size: 17%;
+  position: relative;
+}
+@media (max-width: 990px) {
+  .concierge-header {
+    width: 850px;
+    margin-left: 7%;
+  }
+}
+@media (max-width: 767px) {
+  .concierge-header {
+    width: 100%;
+    background-size: 25%;
+    margin-left: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .concierge-header {
+    background-size: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .concierge-header {
+    background-size: 40%;
+  }
+}
+.concierge-header-text {
+  font-family: "Proxima Nova";
+  float: left;
+  margin-left: 22%;
+  margin-top: 14px;
+  width: 400px;
+}
+@media (max-width: 990px) {
+  .concierge-header-text {
+    margin-left: 19%;
+  }
+}
+.concierge-header-text h3 {
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.2em;
+  color: #111;
+  line-height: 1.2em;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+.concierge-header-text h4 {
+  font-family: "Proxima Nova";
+  text-align: left;
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #7b1fa6;
+  margin-top: 4px !important;
+}
+@media (max-width: 767px) {
+  .concierge-header-text {
+    margin-left: 3px;
+    margin-top: 88px;
+    width: 70%;
+  }
+  .concierge-header-text h3 {
+    font-size: 1.1em;
+  }
+}
+.concierge-btn {
+  float: left;
+  margin-right: 8%;
+  margin-top: 28px;
+}
+@media (max-width: 990px) {
+  .concierge-btn {
+    margin-right: 11%;
+    margin-top: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .concierge-btn {
+    margin-top: 1%;
+    margin-right: 42%;
+    float: left;
+    margin-left: 0%;
+    margin-bottom: 4%;
+  }
+}
+#divConciergeNewCust, #divConciergeExistingCust {
+  display: none;
+}
+body.mj-new #divConciergeNewCust, body.mj-existing #divConciergeExistingCust {
+  display: inline-block;
+}
+/* END CONCIERGE PROMO */
+.see-offers {
+  float: right;
+  margin-right: 9%;
+  margin-top: 4.2%;
+}
+@media (max-width: 990px) {
+  .see-offers {
+    margin-right: 4%;
+    margin-top: 4.2%;
+  }
+}
+@media (max-width: 767px) {
+  .see-offers {
+    margin-top: 1%;
+    margin-right: 42%;
+    float: left;
+    margin-left: 0%;
+    margin-bottom: 4%;
+  }
+}
+#promos .promo h2 {
+  font-family: "Proxima Nova";
+  font-weight: 600;
+  padding: 0 1em;
+  text-align: center;
+  font-size: 1.75em;
+  line-height: 28px;
+  margin: 0;
+  color: #00aeef;
+}
+#promos .promo h3 {
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  padding: 0 1em;
+  text-align: center;
+  font-size: 2.1em;
+  margin: 0;
+  color: #00aeef;
+}
+.promo p {
+  padding: 0 1em;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}
+.promo img {
+  display: block;
+  width: 70%;
+  max-width: 262px;
+  margin: 0 auto;
+}
+.promo-mjb {
+  display: block;
+  width: 82% !important;
+  max-width: 300px !important;
+  margin: 12px auto 20px !important;
+}
+.promo-mjb-home {
+  display: block;
+  width: 88% !important;
+  max-width: 300px !important;
+  margin: 22px auto 36px !important;
+}
+.keep-offers {
+  padding-top: 26px;
+}
+.plan-offers {
+  margin-top: -3px !important;
+  margin-bottom: 16px !important;
+}
+.plans-home {
+  width: 70% !important;
+  margin-top: -10px !important;
+  margin-bottom: 4px !important;
+}
+.app-offers {
+  width: 80% !important;
+}
+@media (max-width: 990px) {
+  .promo-mjb {
+    display: block;
+    width: 80% !important;
+    max-width: 250px !important;
+    margin: 12px auto 20px !important;
+  }
+  .promo-mjb-home {
+    display: block;
+    width: 84% !important;
+    max-width: 300px !important;
+    margin: 18px auto 28px !important;
+  }
+  .keep-offers {
+    padding-top: 50px;
+  }
+  .plan-offers {
+    margin-top: -10px !important;
+  }
+  .plans-home {
+    width: 70% !important;
+    margin-top: -10px !important;
+    margin-bottom: 4px !important;
+  }
+  .app-offers {
+    margin-top: 8px !important;
+    margin-bottom: 22px !important;
+    width: 80% !important;
+  }
+}
+@media (max-width: 768px) {
+  .device-offers {
+    margin-bottom: 20px !important;
+  }
+  .promo-mjb {
+    display: block;
+    width: 80% !important;
+    max-width: 250px !important;
+    margin: 9px auto 16px !important;
+  }
+  .promo-mjb-home {
+    display: block;
+    width: 84% !important;
+    max-width: 300px !important;
+    margin: 18px auto 28px !important;
+  }
+  .keep-offers {
+    padding-top: 24px;
+  }
+  .plan-offers {
+    margin-top: 10px !important;
+  }
+  .app-offers {
+    margin-top: 8px !important;
+    margin-bottom: 10px !important;
+    width: 70% !important;
+  }
+}
+.promo-subhead {
+  padding: 0;
+  font-size: 140%;
+  line-height: 24px;
+}
+.customer a {
+  font-size: 40%;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #46B942;
+  text-transform: uppercase;
+  color: #46B942;
+  font-weight: 400;
+  margin-top: 1em;
+}
+.customer a:hover {
+  border: 1px solid #00aeef;
+  color: #00aeef;
+  text-decoration: none;
+}
+.mj-btn.green {
+  border: 1px solid #45b941;
+}
+.mj-btn.green:hover {
+  border: 1px solid #45b941;
+}
+.offers-wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+@media (max-width: 939px) {
+  .offers-wrapper {
+    width: 100%;
+    padding: 1em;
+  }
+}
+.offers-header {
+  background-color: #fafafa;
+  padding-bottom: 20px;
+}
+.offers-header-holiday {
+  background-color: #EEE;
+  padding-top: 90px;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+.offers-header-holiday img {
+  height: 120px;
+}
+.offers-header-everyday {
+  background: #00adf2 url(../img/offers_banner_everyday_bg.jpg) no-repeat;
+  padding-top: 90px;
+  margin: 0 0 50px 0;
+  text-align: center;
+  background-position: 0 40px;
+}
+.offers-header-everyday img {
+  height: 120px;
+}
+.promo-group-header {
+  width: 100%;
+}
+.promo-group {
+  overflow: auto;
+  margin-bottom: 50px;
+}
+.offers-header-holiday {
+  background-color: #EEE;
+  padding-top: 64px;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+.offers-header-holiday img {
+  height: auto;
+  width: 90%;
+}
+.offers-header-everyday {
+  padding-top: 68px;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+.promo-group-header {
+  margin-bottom: 8px;
+}
+.promo-group {
+  margin-bottom: 20px;
+}
+.go-logo {
+  width: 300px;
+}
+@media (max-width: 360px) {
+  .go-logo {
+    width: 250px;
+  }
+}
+#divPromoNewCust, #divPromoExistingCust, .text-new, .text-existing {
+  display: none;
+}
+body.mj-new #divPromoNewCust, body.mj-existing #divPromoExistingCust {
+  display: block;
+  clear: both;
+  width: 100%;
+}
+body.mj-new .text-new, body.mj-existing .text-existing {
+  display: inline;
+}
+body.mj-existing #imgHeroFreeTrial {
+  display: none;
+}
+@media (max-width: 992px) {
+  .promo-subhead {
+    font-size: 120%
+  }
+  #promos .promo h2 {
+    font-size: 1.5em;
+    line-height: 26px;
+  }
+}
+.ca-port {
+  line-height: 138% !important;
+  margin-top: -1px !important;
+  margin-bottom: 2px;
+}
+.ca-port-img {
+  margin-top: -2px !important;
+  width: 55% !important;
+}
+@media (max-width: 992px) {
+  .ca-port-img {
+    margin-top: -4px !important;
+    width: 79% !important;
+  }
+  .ca-port {
+    line-height: 136% !important;
+    margin-top: -4px !important;
+  }
+}
+.ca-port-off {
+  line-height: 15px !important;
+  margin-top: -2px
+}
+.ca-port-img-off {
+  width: 250px !important;
+  margin-top: -11px !important;
+}
+@media (max-width: 992px) {
+  .ca-port-off {
+    line-height: 16px !important;
+    margin-top: 0px !important;
+  }
+  .ca-port-img-off {
+    width: 269px !important;
+    margin-top: -10px
+  }
+}
+@media (max-width: 767px) {
+  .promo img {
+    max-width: 80% !important;
+  }
+  .ca-port-img-off {
+    width: 72% !important;
+  }
+  .ca-port-img {
+    width: 72% !important;
+  }
+}
+.footnote-bus {
+  margin-top: 18px;
+  font-size: 11px;
+  font-style: italic;
+}
+/* RAPID RENEWAL PROMO TILE */
+.rapidrenew-hdr {
+  font-weight: normal;
+  text-align: center;
+  font-size: 1.75em;
+  line-height: 28px;
+  margin: 0 6px 4px;
+  color: #7b1fa6;
+}
+.promo-rapidrenew-subhead {
+  padding: 0;
+  font-size: 140%;
+  line-height: 24px;
+}
+.rapid-form {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 12px 12px 6px;
+  margin: 20px auto 0px;
+  max-width: 320px;
+}
+.rapid-form-offers {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 12px 12px 6px;
+  margin: 20px auto 0px;
+  max-width: 260px;
+}
+.rapid-form-text {
+  margin-bottom: 16px;
+}
+@media (max-width: 992px) {
+  .rapid-form {
+    padding: 10px 10px 10px;
+    margin: 14px 6px 0px;
+    max-width: none;
+  }
+  .promo-rapidrenew-subhead {
+    padding: 0;
+    font-size: 17px;
+    line-height: 19px;
+    margin-bottom: 8px;
+  }
+  .rapid-form-text {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .rapid-form {
+    padding: 6px 4px;
+    margin: 12px auto 0px;
+    max-width: 82%;
+  }
+  .rapid-form-offers {
+    padding: 6px 4px;
+    margin: 12px auto 0px;
+    max-width: 82%;
+  }
+  .promo-rapidrenew-subhead {
+    padding: 0;
+    font-size: 21px;
+  }
+}
+.form-button-next {
+  display: inline-block;
+  padding: 7px 45px 5px 14px;
+  white-space: normal;
+  background: #00aeef;
+  color: #fff;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%;
+  text-align: left;
+  background-image: url('../img/shopping-cart/chevron-right-white.png');
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: 10px;
+}
+.form-button-next:hover {
+  background-color: #fff;
+  color: #00aeef;
+  border-color: #00aeef;
+  text-decoration: none;
+  background-image: url('../img/shopping-cart/chevron-right-blue.png');
+}
+.form-button-next.purple {
+  background: #7b1fa6;
+  border-color: #7b1fa6;
+  background-image: url('../img/shopping-cart/chevron-right-white.png');
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: 10px;
+}
+.form-button-next.purple:hover {
+  background-color: #fff;
+  color: #7b1fa6;
+  border-color: #7b1fa6;
+  background-image: url('../img/shopping-cart/chevron-right-purple.png');
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: 10px;
+}
+.form-link-right, .form-link-down, .form-link-up {
+  background-color: #fff;
+  color: #00aeef;
+  text-decoration: none;
+  border: none;
+  background-image: url('../img/shopping-cart/chevron-right-blue.png');
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 8px;
+  padding: 4px 26px 5px 5px;
+  font-size: 15px;
+}
+.form-link-right:hover, .form-link-down:hover, .form-link-up:hover {
+  text-decoration: underline;
+}
+.form-link-down {
+  background-image: url('../img/shopping-cart/chevron-down-blue.png');
+  background-position: right 8px top 12px;
+  background-size: 12px;
+}
+.form-link-up {
+  background-image: url('../img/shopping-cart/chevron-up-blue.png');
+  background-position: right 8px bottom 12px;
+  background-size: 12px;
+}
+@media (min-width: 768px) {
+  .form-button-next.auto-width {
+    width: auto;
+  }
+}
+.form-button-next.text-center {
+  text-align: center;
+}
+.form-button {
+  display: inline-block;
+  padding: 7px 25px 5px;
+  white-space: nowrap;
+  background: #00aeef;
+  color: #fff;
+  border: 1px solid #00aeef;
+  border-radius: 5px;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: left;
+}
+.form-button:hover {
+  background-color: #fff;
+  color: #00aeef;
+  border-color: #00aeef;
+  text-decoration: none;
+}
+.form-button.purple {
+  background: purple;
+  border: 1px solid purple;
+  color: #fff;
+}
+.form-button.purple:hover {
+  background: #fff;
+  border: 1px solid purple;
+  color: purple;
+}
+.form-button.white {
+  background-color: #fff;
+  color: #00aeef;
+  border-color: #00aeef;
+}
+.form-button.white:hover {
+  background: #00aeef;
+  color: #fff;
+  border: 1px solid #00aeef;
+}
+.form-button.white.purple {
+  background: #fff;
+  border: 1px solid purple;
+  color: purple;
+}
+.form-button.white.purple:hover {
+  background: purple;
+  border: 1px solid purple;
+  color: #fff;
+}
+.rapidrenew-text {
+  font-size: 14px;
+  text-align: left;
+  margin: 20px 18px 0;
+}
+.rapidrenew-text a {
+  color: #00aeef;
+}
+/* HOLIDAY 2018 HERO */
+#hero-hol18 {
+  width: 100%;
+  background: url(../i/holiday-18/home-hero.jpg) no-repeat;
+  background-position: center 28px;
+  background-size: cover;
+  overflow: auto;
+  position: relative;
+}
+#hero-cyber18 {
+  width: 100%;
+  background: url(../i/holiday-18/home-hero-cyber.jpg) no-repeat;
+  background-position: center 28px;
+  background-size: cover;
+  overflow: auto;
+  position: relative;
+}
+.hero-hol-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 9%;
+  position: relative;
+}
+#hero-box {
+  width: 100%;
+  background: #f8f8f8 url(../i/holiday-18/home-hero-box.jpg) no-repeat;
+  background-position: left -22px;
+  background-size: cover;
+  overflow: auto;
+  position: relative;
+}
+.hero-promo-box {
+  font-family: "Proxima Nova";
+  padding: 0 0 1.15em 0;
+  width: 54%;
+  float: right;
+  color: #292929;
+}
+.hero-promo-box ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+  width: 300px;
+}
+.hero-wrapper-box {
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 9%;
+  position: relative;
+}
+.box-hdr {
+  font-family: "Proxima Nova";
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+.hero-promo-hol18 {
+  font-family: "Proxima Nova";
+  padding: 0 8px 5.2em 0;
+  width: 48%;
+  float: right;
+  color: #111111;
+  background: url(../img/promo_go_blank.png) bottom right no-repeat;
+  background-size: 74%;
+}
+.hero-promo-hol18 h1 {
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  color: #f80f02;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.hero-promo-hol18 h2 {
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 3.5em;
+}
+.hero-promo-hol18 h3 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  font-size: 20px;
+  line-height: 23px;
+}
+.hero-promo-hol18 .hol-txt {
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 0.4em;
+  font-size: 18px;
+  line-height: 20px;
+}
+.phone-hol {
+  margin-top: 18px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+.hol18-btn {
+  margin-top: 15px;
+}
+@media (max-width: 990px) {
+  #hero-hol18 {
+    width: 100%;
+    background: url(../i/holiday-18/home-hero.jpg) no-repeat;
+    background-position: center 28px;
+    background-size: cover;
+    overflow: auto;
+    position: relative;
+  }
+  .hero-promo-box ul {
+    list-style: none;
+    margin: 0 0 1em 0;
+  }
+  .hero-hol-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+  .hero-wrapper-box {
+    width: 100%;
+    padding-top: 13%;
+  }
+  .box-hdr {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    padding-top: 20px;
+  }
+  .hero-promo-hol18 {
+    font-family: "Proxima Nova";
+    padding: 0 8px 20px 0;
+    width: 46%;
+    float: right;
+    color: #111111;
+    background: url(../img/promo_go_blank.png) bottom right no-repeat;
+    background-size: 65%;
+  }
+  .hero-promo-hol18 h1 {
+    margin-bottom: 0.5em;
+    font-weight: 500;
+    color: #fd2f39;
+    font-size: 18px;
+  }
+  .hero-promo-hol18 h2 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 2.5em;
+  }
+  .hero-promo-hol18 h3 {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .hero-promo-hol18 .hol-txt {
+    font-weight: normal;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  #hero-box {
+    width: 100%;
+    background: url(../i/holiday-18/home-hero2.jpg) no-repeat;
+    background-position: center 50px;
+    background-size: cover;
+    overflow: auto;
+    position: relative;
+  }
+}
+@media (max-width: 767px) {
+  #hero-hol18 {
+    background-size: 100%;
+    margin-top: 44px;
+    background-position: center -12px;
+  }
+  .hero-promo-box {
+    width: 100%;
+    height: 56.5%;
+    float: none;
+    background-size: 65%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+  .hero-promo-box ul {
+    width: auto;
+  }
+  #hero-cyber18 {
+    width: 100%;
+    background-position: left -52px;
+    margin-top: 44px;
+  }
+  #hero-box {
+    background: url(../i/holiday-18/home-hero-boxsm.jpg) no-repeat;
+    width: 100%;
+    background-position: -28px 29px;
+    background-size: 800px;
+  }
+  .hero-hol-wrapper {
+    padding-top: 46%;
+  }
+  .hero-wrapper-box {
+    height: 100%;
+    padding-top: 46%;
+  }
+  .hero-promo-hol18 {
+    width: 100%;
+    height: 56.5%;
+    float: none;
+    color: #000;
+    background-color: #fff;
+    padding: 0.1em 1em 2.85em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+    background-size: 51%;
+  }
+  .hero-promo-hol18 h3 {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .hero-promo-hol18 .hol-txt {
+    font-weight: normal;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .hol18-btn {
+    margin-top: 15px;
+    padding: 12px 20px;
+  }
+}
+@media (max-width: 600px) {
+  #hero-box {
+    background: url(../i/holiday-18/home-hero-boxsm.jpg) no-repeat;
+    width: 100%;
+    background-position: -28px -5px;
+    background-size: 700px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-hol18 {
+    background-size: 100%;
+    margin-top: 64px;
+  }
+  #hero-cyber18 {
+    background-size: 100%;
+    margin-top: 64px;
+    background-position: left -8px;
+  }
+  .hero-promo-hol18 {
+    padding-bottom: 1.2em;
+    background-size: 0%;
+    background-position: bottom left;
+  }
+  .hero-promo-hol18 h1 {
+    font-size: 15px;
+  }
+  .hero-promo-hol18 h2 {
+    font-size: 2em;
+    margin-bottom: .2em;
+  }
+  #hero-box {
+    width: 100%;
+    background-position: -38px 2px;
+    background-size: 550px;
+  }
+  .hero-wrapper-box {
+    height: 100%;
+    padding-top: 44%;
+  }
+}
+/* END HOLIDAY 2018 */
+/* SPRING 2020 */
+#hero-home-spring20 {
+  width: 100%;
+  background: url("../img/hero/home0320-2.jpg") no-repeat;
+  background-position: left 2px;
+  background-size: 82%;
+  background-color: #f9fff8;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-home-spring20 {
+    width: 100%;
+    background-size: 88%;
+    background-position: left 48px;
+  }
+}
+@media (max-width: 990px) {
+  #hero-home-spring20 {
+    width: 100%;
+    background-size: 94%;
+    background-position: left 54px;
+  }
+}
+@media (max-width: 767px) {
+  #hero-home-spring20 {
+    background: url("../img/hero/home0320-2-767.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center 25px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-home-spring20 {
+    background-position: center 28px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-home-spring20 {
+    background-position: center 40px;
+  }
+}
+@media (max-width: 320px) {}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 52%;
+  }
+}
+.hero-promo-spring20 {
+  font-family: "Proxima Nova";
+  padding: 6px 0 42px;
+  width: 65%;
+  float: right;
+  color: #292929;
+  background: url("../img/hero/home_device_special.png") bottom right no-repeat;
+  background-size: 65%;
+}
+@media (max-width: 990px) {
+  .hero-promo-spring20 {
+    padding: 6px 0 16px;
+    background-size: 62%;
+    width: 58%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-spring20 {
+    width: 100%;
+    height: 56%;
+    float: none;
+    background-size: 58%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-spring20 {
+    padding-bottom: 3em;
+    background-size: 58%;
+    background-position: bottom right;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-spring20 {}
+}
+.hero-promo-spring20 h1 {
+  font-family: "Proxima Nova";
+  color: #111111;
+  font-weight: 300;
+  font-size: 2.1em;
+  padding-top: 14px;
+  margin: 10px 0 10px;
+}
+.hero-promo-spring20 img {
+  width: 380px;
+  margin: 0 0 4px;
+}
+.hero-promo-spring20 ul {
+  list-style: none;
+  margin: 0 0 .7em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 18px;
+  width: 310px;
+}
+.hero-promo-spring20 li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+@media (max-width: 990px) {
+  .hero-promo-spring20 h1 {
+    font-size: 1.9em;
+    padding-top: 10px;
+    margin: 10px 0 5px;
+  }
+  .hero-promo-spring20 img {
+    width: 350px;
+  }
+  .hero-promo-spring20 ul {
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    width: 290px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-promo-spring20 h1 {
+    display: none;
+  }
+  .hero-promo-spring20 ul {
+    width: 60%;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .hero-promo-spring20 img {
+    width: 370px;
+    margin: 14px 0 2px;
+  }
+}
+.calls-ital {
+  line-height: 18px !important;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.hero-discount {
+  font-size: 2.5em;
+  font-family: "Proxima Nova";
+  display: block;
+  line-height: 100%;
+  margin-top: 0.1em;
+  font-weight: 700;
+}
+.msrp19 {
+  margin: 2px 0 8px;
+  font-size: 16px;
+  font-style: italic;
+}
+.phone-hero--spring20 {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.plus {
+  color: #292929;
+  font-size: 1.2em;
+  display: inline;
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+  .hero-promo-spring20 img {
+    width: 340px;
+  }
+  .hero-promo-spring20 ul {
+    width: 68%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-spring20 img {
+    width: 280px;
+  }
+  .hero-promo-spring20 h1 {
+    font-weight: 500;
+    font-size: .95em;
+    padding-top: 0px;
+  }
+  .phone-hero-spring20 {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
+.hero-promo-home a.mj-btn.green, .hero-promo-home a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+/* END SPRING 2020 */
+/* MAY 2020 MOTHER's DAY*/
+#hero-home-may20 {
+  width: 100%;
+  background: url("../img/hero/home-momday20.jpg") no-repeat;
+  background-position: left 20px;
+  background-size: 72%;
+  background-color: #f6f6f6;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-home-may20 {
+    width: 100%;
+    background-position: left 48px;
+    background-size: 84%;
+  }
+}
+@media (max-width: 990px) {
+  #hero-home-may20 {
+    background-position: left 48px;
+    background-size: 90%;
+  }
+}
+@media (max-width: 767px) {
+  #hero-home-may20 {
+    background: url("../img/hero/home-momday20-767.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center 40px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-home-may20 {
+    background-position: center 28px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-home-may20 {
+    background-position: center 40px;
+  }
+}
+@media (max-width: 320px) {}
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 52%;
+  }
+}
+.hero-promo-may20 {
+  font-family: "Proxima Nova";
+  padding: 6px 0 42px;
+  width: 67%;
+  float: right;
+  color: #292929;
+  background: url("../img/hero/home_device_pink.png") bottom right no-repeat;
+  background-size: 65%;
+}
+@media (max-width: 1200px) {
+  .hero-promo-may20 {
+    padding: 6px 0 16px;
+    background-size: 62%;
+    width: 62%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-may20 {
+    padding: 6px 0 16px;
+    background-size: 62%;
+    width: 58%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-may20 {
+    width: 100%;
+    height: 56%;
+    float: none;
+    background-size: 58%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-may20 {
+    padding-bottom: 3em;
+    background-size: 58%;
+    background-position: bottom right;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-may20 {}
+}
+.hero-promo-may20 h1 {
+  font-family: "Proxima Nova";
+  color: #c7018a;
+  font-weight: 200;
+  font-size: 2.5em;
+  padding-top: 14px;
+  margin: 10px 0 10px;
+}
+.hero-promo-may20 img {
+  width: 390px;
+  margin: 0 0 4px;
+}
+.hero-promo-may20 ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 18px;
+  width: 310px;
+}
+.hero-promo-may20 li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+@media (max-width: 990px) {
+  .hero-promo-may20 h1 {
+    font-size: 2.25em;
+    padding-top: 10px;
+    margin: 10px 0 5px;
+  }
+  .hero-promo-may20 img {
+    width: 370px;
+  }
+  .hero-promo-may20 ul {
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    width: 290px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-promo-may20 h1 {
+    display: none;
+  }
+  .hero-promo-may20 ul {
+    width: 60%;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .hero-promo-may20 img {
+    width: 370px;
+    margin: 14px 0 2px;
+  }
+}
+.calls-ital {
+  line-height: 18px !important;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.hero-discount {
+  font-size: 2.5em;
+  font-family: "Proxima Nova";
+  display: block;
+  line-height: 100%;
+  margin-top: 0.1em;
+  font-weight: 700;
+}
+.msrp19 {
+  margin: 2px 0 8px;
+  font-size: 16px;
+  font-style: italic;
+}
+.phone-hero-may20 {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.plus {
+  color: #292929;
+  font-size: 1.2em;
+  display: inline;
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+  .hero-promo-may20 img {
+    width: 340px;
+  }
+  .hero-promo-may20 ul {
+    width: 74%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-may20 img {
+    width: 280px;
+  }
+  .hero-promo-may20 h1 {
+    font-weight: 500;
+    font-size: .95em;
+    padding-top: 0px;
+  }
+  .phone-hero-may20 {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
+.hero-promo-home a.mj-btn.green, .hero-promo-home a.mj-btn.white {
+  padding: 12px 15px 10px 15px;
+}
+/* END MAY 2020 MOTHERS DAY */
+
+
+/* FATEHRS's DAY 2020 */
+#hero-home-father20 {
+  width: 100%;
+  background: url("../img/hero/home-fathersday20.jpg") no-repeat;
+  background-position: left 12px;
+  background-size: 76%;
+  background-color: #e8f3f9;
+  font-family: "Proxima Nova";
+  overflow: auto;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  #hero-home-father20 {
+    width: 100%;
+    background-position: left 60px;
+    background-size: 84%;
+  }
+}
+@media (max-width: 990px) {
+  #hero-home-father20 {
+    background-position: left 60px;
+    background-size: 90%;
+  }
+}
+@media (max-width: 767px) {
+  #hero-home-father20 {
+    background: url("../img/hero/home-fathersday20-767.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center 30px;
+  }
+}
+@media (max-width: 480px) {
+  #hero-home-father20 {
+    background-position: center 28px;
+    margin-top: 6%;
+    padding: 34px 0 0;
+  }
+}
+@media (max-width: 375px) {
+  #hero-home-father20 {
+    background-position: center 40px;
+  }
+}
+@media (max-width: 320px) {
+.herohome-wrapper {
+  height: 100%;
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 7%;
+  position: relative;
+    }}
+@media (max-width: 1000px) {
+  .herohome-wrapper {
+    width: 100%;
+    padding-top: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .herohome-wrapper {
+    padding-top: 46%;
+  }
+}
+
+@media (max-width: 415px) {
+  .herohome-wrapper {
+    padding-top: 44%;
+  }
+}
+.hero-promo-father20 {
+  font-family: "Proxima Nova";
+  padding: 6px 0 42px;
+  width: 70%;
+  float: right;
+  color: #292929;
+  background: url("../img/hero/home_device_red.png") bottom right no-repeat;
+  background-size: 62%;
+}
+@media (max-width: 1200px) {
+  .hero-promo-father20 {
+    padding: 6px 0 20px;
+    background-size: 62%;
+    width: 58%;
+  }
+}
+@media (max-width: 990px) {
+  .hero-promo-father200 {
+    padding: 6px 0 16px;
+    background-size: 62%;
+    width: 58%;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-father20 {
+    width: 100%;
+    height: 56%;
+    float: none;
+    background-size: 58%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+}
+@media (max-width: 480px) {
+  .hero-promo-father20 {
+    padding-bottom: 3em;
+    background-size: 58%;
+    background-position: bottom right;
+  }
+}
+
+.hero-promo-father20 h1 {
+  font-family: "Proxima Nova";
+  color: #f5454d;
+  font-weight: 300;
+  font-size: 2.25em;
+  padding-top: 14px;
+  margin: 10px 0 10px;
+}
+.hero-promo-father20 img {
+  width: 390px;
+  margin: 0 0 4px;
+}
+.hero-promo-father20 ul {
+  list-style: none;
+  margin: 0 0 1.5em 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 18px;
+  width: 310px;
+}
+.hero-promo-father20 li {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+@media (max-width: 990px) {
+  .hero-promo-father200 h1 {
+    font-size: 2.25em;
+    padding-top: 10px;
+    margin: 10px 0 5px;
+  }
+  .hero-promo-father20 img {
+    width: 370px;
+  }
+  .hero-promo-father20 ul {
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 16px;
+    width: 290px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hero-promo-father20 h1 {
+    display: none;
+  }
+  .hero-promo-father20 ul {
+    width: 60%;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .hero-promo-father20 img {
+    width: 370px;
+    margin: 14px 0 2px;
+  }
+}
+.calls-ital {
+  line-height: 18px !important;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+.hero-discount {
+  font-size: 2.5em;
+  font-family: "Proxima Nova";
+  display: block;
+  line-height: 100%;
+  margin-top: 0.1em;
+  font-weight: 700;
+}
+.msrp19 {
+  margin: 2px 0 8px;
+  font-size: 16px;
+  font-style: italic;
+}
+.phone-hero-father20 {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.tax-fees {
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 10px;
+}
+.plus {
+  color: #292929;
+  font-size: 1.2em;
+  display: inline;
+}
+@media (max-width: 480px) {
+  .plus {
+    display: block;
+  }
+  .hero-promo-father20 img {
+    width: 340px;
+  }
+  .hero-promo-father20 ul {
+    width: 74%;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (max-width: 360px) {
+  .hero-promo-father20 img {
+    width: 280px;
+  }
+  .hero-promo-father20 h1 {
+    font-weight: 500;
+    font-size: .95em;
+    padding-top: 0px;
+  }
+  .phone-hero-father20 {
+    margin-top: 12px;
+    font-size: 12px;
+  }
+}
+.hero-promo-father20 a.mj-btn.blue-white, .hero-promo-home a.mj-btn.white {
+  padding: 10px 15px;
+}
+/* END FATHER'S DAY 2020 */
+
+
+
+/* ACTIVATE 2018 - 2019 */
+.hero-promo-activate {
+  font-family: "Proxima Nova";
+  padding: 0 40px 54px 12px;
+  width: 56%;
+  float: right;
+  color: #292929;
+}
+.hero-promo-activate h1 {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.hero-promo-activate h2 {
+  font-size: 24px;
+  font-weight: normal;
+  width: 500px;
+  margin-top: 10px;
+}
+.hero-promo-activate p {
+  font-size: 18px;
+  font-weight: normal;
+}
+.act-txt {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  width: 350px;
+  margin-bottom: 5px;
+}
+.hero-promo-activate h3 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 32px;
+}
+.act-buy {
+  margin-top: 18px;
+}
+@media (max-width: 990px) {
+  .hero-promo-activate {
+    padding: 0 46px 54px 0;
+    width: 52%;
+    float: right;
+    color: #292929;
+    background-size: 60%;
+  }
+  .hero-promo-activate h1 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .hero-promo-activate h2 {
+    font-size: 20px;
+    font-weight: normal;
+    width: auto;
+  }
+  .hero-promo-activate h3 {
+    font-size: 22px;
+  }
+  .hero-promo-activate p {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .act-txt {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 350px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .hero-promo-activate {
+    width: 100%;
+    height: 56.5%;
+    float: none;
+    background-size: 51%;
+    background-color: #fff;
+    padding: 0.1em 1em 3em 1em;
+    border-bottom: #e5e5e5 solid 1px;
+  }
+  .hero-promo-activate h2 {
+    width: auto;
+  }
+}
+/* END ACTIVATE 2018 - 2019 */
+/* CONCIERGE HOLIDAY 18 PROMO */
+.holiday18 {
+  background: white url("../i/holiday-18/promos_holiday.jpg") no-repeat 0px bottom;
+  background-size: 100%;
+  padding-bottom: 18px;
+}
+.concierge-header-hol {
+  width: 980px;
+  font-family: "Proxima Nova";
+  margin: 0 auto;
+  height: 100px;
+  background: url(../i/holiday-18/concierge_logo-santa.png) center left no-repeat;
+  background-size: 19%;
+  position: relative;
+}
+.concierge-header-text-hol h3 {
+  font-family: "Proxima Nova";
+  font-weight: 500;
+  text-align: left;
+  font-size: 17px;
+  color: #111;
+  line-height: 19px;
+  margin-top: 4px !important;
+  margin-bottom: 0 !important;
+}
+.concierge-header-text-hol h4 {
+  font-family: "Proxima Nova";
+  text-align: left;
+  font-size: 22px;
+  font-weight: 600;
+  color: #7b1fa6;
+  margin-top: 4px !important;
+}
+.strike {
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: line-through;
+}
+@media (max-width: 990px) {
+  .concierge-header-hol {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .concierge-header-text-hol h3 {
+    font-size: 15px;
+    line-height: 17px;
+    margin-top: 4px !important;
+    margin-bottom: 0 !important;
+  }
+  .concierge-header-text-hol h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 4px !important;
+  }
+  .strike {
+    font-size: 17px;
+  }
+}
+@media (max-width: 767px) {
+  .concierge-header-hol {
+    width: 100%;
+    background-size: 28%;
+    margin-left: 18px;
+  }
+  .holiday18 {
+    background-size: 200%;
+    padding-bottom: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .concierge-header-hol {
+    background-size: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .concierge-header-hol {
+    background-size: 40%;
+  }
+}
+.concierge-header-text-hol {
+  font-family: "Proxima Nova";
+  float: left;
+  margin-left: 22%;
+  margin-top: 14px;
+  width: 400px;
+}
+@media (max-width: 990px) {
+  .concierge-header-text-hol {
+    margin-left: 22%;
+    width: 320px;
+  }
+}
+@media (max-width: 767px) {
+  .concierge-header-text-hol {
+    margin-left: 3px;
+    margin-top: 100px;
+    width: 70%;
+  }
+}
+.concierge-btn-hol {
+  float: left;
+  margin-right: 8%;
+  margin-top: 28px;
+}
+@media (max-width: 990px) {
+  .concierge-btn-hol {
+    margin-right: 11%;
+    margin-top: 28px;
+  }
+}
+@media (max-width: 767px) {
+  .concierge-btn-hol {
+    margin-top: 1%;
+    margin-right: 42%;
+    float: left;
+    margin-left: 0%;
+    margin-bottom: 4%;
+    padding: 0;
+  }
+}
+@media (max-width: 320px) {
+  .concierge-header-text-hol {
+    width: 85%;
+  }
+}
+/* END CONCIERGE HOLIDAY 18 PROMO */

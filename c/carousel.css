@@ -1,0 +1,237 @@
+#hero .carousel h1, .slide-ipp-content p, .slide-ipp-content .btn-lg { font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif; }
+
+#fire-content h1 small { font-size: 13px; }
+#fire-content #fire-left-col ul li { padding-top: 0; }
+#hero .carousel h1 br { display: none; }
+
+#slide-ipp {
+    background: url('../img/hero/home_banner_ipp-mobile.jpg') no-repeat left center;
+    background-size: cover;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.es #slide-ipp {
+    background: url('../img/hero/home_banner_ipp-mobile-es.jpg') no-repeat left center;
+    background-size: cover;
+}
+
+#slide-ipp .container { position: relative; }
+
+.slide-ipp-content {
+    float: right;
+    position: relative;
+    text-align: right;
+    z-index: 1;
+}
+
+#slide-ipp h1 {
+    color: #1fa8e3;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1em;
+    margin: 0;
+    text-align: right;
+}
+
+#slide-ipp small {
+    color: #333;
+    display: block;
+    float: right;
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.6rem;
+    margin-top: 8px;
+    text-align: right;
+    width: 65%;
+}
+
+#slide-ipp .ipp-link {
+    height: 60px;
+    left: 108px;
+    position: absolute;
+    top: 134px;
+    width: 60px;
+}
+
+#slide-ipp .video_thumb img { border: 3px solid #aaaaaa; }
+
+
+.slide-ipp-content .slide-ipp-prices {
+    color: #1fa8e3;
+    display: none;
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 1em;
+    margin-top: 15px;
+}
+
+.slide-ipp-content .slide-ipp-prices sup {
+    font-size: 1.6rem;
+    top: 12px;
+    vertical-align: top;
+}
+
+.slide-ipp-content .btn-lg {
+    background-color: #45b941;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    min-width: 125px;
+    padding: 5px;
+    white-space: normal;
+    width: 40%;
+}
+.es .slide-ipp-content .btn-lg {
+    min-width: 105px;
+}
+
+#hero .modal .modal-dialog { margin-top: 90px; }
+
+.es #slide-march10off {
+    background: url(../img/hero/home_banner_march10off-sm-es.jpg) no-repeat bottom left;
+    background-size: cover;
+}
+
+.es .slide-title {
+    left: 66px
+}
+
+.es .slide-title h1 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.es .slide-content li { font-size: 1rem; }
+
+.es #slide-march10off .promo-new {
+    bottom: 59px;
+    font-size: .7rem;
+}
+
+.es #slide-mobileapp .slide-title h1 { font-size: 1.5rem; }
+.es #slide-mobileapp .slide-title h1 br { display: none; }
+
+.es #slide-mobileapp .slide-content { top: 43px; }
+
+.es #slide-mobileapp .slide-content p { font-size: 1.4rem; }
+
+@media screen and (min-width:400px) {
+
+    #hero .carousel h1 br { display: block; }
+    .slide-ipp-content .btn-lg {
+        margin-top: 15px;
+        padding: 8px 16px 6px;
+        width: 50%;
+    }
+    .es #slide-march10off .promo-new { bottom: 57px; font-size: .9rem; }
+    .es #slide-mobileapp .slide-content { top: 65px; }
+    .es #slide-mobileapp .slide-title h1 { font-size: 1.8rem; }
+}
+
+@media screen and (min-width:480px) {
+    #slide-ipp h1 { font-size: 3rem; }
+    #slide-ipp small { font-size: 1.8rem; line-height: 2.2rem; width: 75%; }
+    .slide-ipp-content .slide-ipp-prices { display: block; float: right; width: 100%; }
+    .slide-ipp-content .btn-lg { font-size: 1.6rem; padding: 14px 16px 12px; }
+
+    .es .slide-content li { font-size: 1.2rem; }
+    .es #slide-march10off .promo-new { font-size: 1.2rem; bottom: 54px; }
+}
+
+@media screen and (min-width:568px) {
+
+    #slide-ipp h1 { margin-top: 8px; }
+}
+
+@media screen and (min-width:640px) {
+    #fire-content #fire-left-col ul li { padding-top: 5px; }
+    .slide-ipp-content .btn-lg { white-space: nowrap; width: auto; }
+    .es .slide-ipp-content .btn-lg { white-space: normal; }
+}
+
+@media screen and (min-width:768px) {
+    #fire-content h1 small { font-size: 21px; }
+    #fire-content #fire-left-col ul li { padding-top: 1em; }
+    .es #fire-content #fire-left-col ul li { padding-top: 8px; }
+    #slide-ipp { background: url('../img/hero/home_banner_ipp_jan2015.jpg') no-repeat center center; background-size: cover; }
+    .es #slide-ipp { background: url('../img/hero/home_banner_ipp_jan2015-es.jpg') no-repeat center center; background-size: cover; }
+    #slide-ipp h1 { font-size: 3.5rem; line-height: 1em; margin: 8px 0 10px 10px; }
+    .es #slide-ipp h1 { display: inline-block; font-size: 3.2rem; margin-left: 25%; width: 75%; }
+    #slide-ipp small { font-size: 2.1rem; line-height: 2.5rem; text-align: center; width: 65%; }
+    .br { display: block; }
+    #slide-ipp .ipp-link { height: 123px; left: 215px; top: 140px; width: 124px; }
+
+    #slide-ipp .video_thumb img { width: 335px; }
+    .slide-ipp-content .btn-lg { margin-top: 10px; width: 335px; }
+    .slide-ipp-content .slide-ipp-prices { margin-top: 20px; }
+    .es .slide-ipp-content .slide-ipp-prices { margin-top: 10px; }
+
+    .es #slide-march10off { background: url(../img/hero/home_banner_march10off-md-es.jpg) no-repeat bottom center; background-size: cover; }
+
+    .es .slide-title { left: 145px; }
+
+    .es .slide-title h1 { font-size: 3.8rem; letter-spacing: -1px; margin-top: 8px; }
+
+    .es .slide-content li { font-size: 1.6rem; }
+
+    .es #slide-march10off .promo-new { font-size: 1.1rem; bottom: 70px; }
+
+    .es #slide-mobileapp .slide-title { left: 265px; top: 15px; }
+
+    .es #slide-mobileapp .mobileapp-ios { position: absolute; right: 50px; top: 35px; }
+
+    .es #slide-mobileapp .slide-title h1 { font-size: 3.3rem; }
+    .es #slide-mobileapp .slide-title h1 br { display: inline-block; }
+
+    .es #slide-mobileapp .slide-title h1 p { margin-left: 0; margin-top: 0px; }
+
+    .es #slide-mobileapp .slide-content { left: 265px; top: 145px; }
+}
+
+@media screen and (min-width:992px) {
+
+    #slide-ipp h1 { font-size: 4.5rem; line-height: 1.1em; margin: 20px 0 20px 10px; }
+    .es #slide-ipp h1 { font-size: 3.8rem; margin-bottom: 10px; }
+    #slide-ipp small { font-size: 2.5rem; line-height: 3rem; margin-top: 0; text-align: center; }
+    #slide-ipp .ipp-link { left: 330px; }
+
+    .es #slide-march10off { background: url(../img/hero/home_banner_march10off-es.jpg) no-repeat bottom center; background-size: cover 100%; }
+
+    .es .slide-title { left: 290px; }
+
+    .es .slide-title h1 { font-size: 4.5rem; }
+
+    #hero .carousel h1 { font-weight: 900; line-height: 1; margin-top: 6px; }
+    .es#hero .carousel h1 { font-weight: 600; margin-top: 9px; }
+    .es#hero #fire-content h1 { font-weight: 900; }
+    .es #fire-content #fire-left-col ul li { padding-top: 10px; }
+    #hero .carousel h1 b { font-weight: 900; }
+
+    .es .slide-content em { font-weight: 800; }
+
+    .es .slide-content li { font-size: 1.6rem; }
+
+    .es #slide-march10off .promo-new { font-size: 1.4rem; bottom: 67px; }
+
+    .es #slide-mobileapp .mobileapp-ios { width: 99px; }
+
+    .es #slide-mobileapp .slide-title { left: 345px; }
+
+    .es #slide-mobileapp .slide-title h1 { font-size: 4.2rem; }
+
+    .es #slide-mobileapp .slide-content { left: 345px; top: 155px; }
+
+    .es #slide-mobileapp .mobileapp-summary li { margin-bottom: 2px; }
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+}
+@media screen and (max-width:767px) {
+}
+
+
+.es .slide-ipp-content .btn-lg {
+	min-width: 105px;
+	clear:right;
+}

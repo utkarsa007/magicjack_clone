@@ -1,0 +1,2179 @@
+/* Variables */
+/* Colors */
+/* Fonts */
+/* mixins */
+.hide-text {
+  text-indent: -9999px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.font-smooth {
+  -webkit-font-smoothing: antialiased;
+}
+.underline {
+  text-decoration: underline;
+}
+.clearfix-ie {
+  clear: both;
+  height: 1px;
+  display: block;
+}
+html,
+body {
+  width: 100%;
+}
+.mj-btn {
+  background: #1fa8e3;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  padding: 14px 25px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.mj-btn:hover {
+  border: 1px solid #7b1fa6;
+  text-decoration: none;
+  color: #7b1fa6;
+  background: #fff;
+}
+.mj-btn.clear-white {
+  background: transparent;
+}
+.mj-btn.clear-white:hover {
+  background: #fff;
+  color: #1fa8e3;
+}
+.mj-btn.green {
+  background: #45b941;
+    border: solid 1px #45b941;  
+}
+.mj-btn.green:hover {
+  background: #fff;
+  color: #45b941;
+ border: solid 1px #45b941;    
+}
+.mj-btn.green-gray {
+  background: #45b941;
+ border: solid 1px #45b941;
+}
+.mj-btn.green-gray:hover {
+  background: #8a9598;
+  color: #fff;
+  border: solid 1px #8a9598;
+}
+.mj-btn.purple {
+  background: #7b1fa6;
+  border: solid 1px #7b1fa6;
+}
+.mj-btn.purple:hover {
+  background: #fff;
+  color: #7b1fa6;
+  border: solid 1px #7b1fa6;
+}
+.mj-btn.white {
+  background: #fff;
+  color: #000;
+}
+.mj-btn.white:hover {
+  background: #000;
+  color: #fff;
+}
+.mj-btn.blue-white {
+  background: #1fa8e3;
+  border: 1px solid #1fa8e3;	
+}
+.mj-btn.blue-white:hover {
+  background: #fff;
+  color: #1fa8e3;
+  border: 1px solid #1fa8e3;
+}
+.mj-btn.blue-grey {
+  background: #1fa8e3;
+}
+.mj-btn.blue-grey:hover {
+  background: #8a9598;
+  color: #fff;
+}
+
+
+.callerID,
+.globe,
+.phone-2-phone,
+.phone {
+  background: url(../img/key-sprites.png) no-repeat;
+  display: block;
+}
+
+a.mj-go-button,
+a.mj-go-button-video {
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+	font-weight: bold;
+	padding: 8px;
+	border-radius: 4px;
+	margin: 0 45px 10px 10px;
+	font: normal normal 500 'Proxima Nova', sans-serif;
+	width: 100px;
+}
+a.mj-go-button:hover,
+a.mj-go-button-video:hover {
+	background-color: #00aeef;
+	color: #fff;
+	text-decoration: none;
+}
+a.mj-go-button-video {
+	display: none;
+}
+
+li.dates {
+	background: url(../img/hero/mj-GO-icon-dates.png) no-repeat left center;
+}
+li.confcall {
+	background: url(../img/hero/mj-GO-icon-confcall.png) no-repeat left center;
+}
+li.app {
+	background: url(../img/hero/mj-GO-icon-app.png) no-repeat left center;
+}
+li.preorder {
+	background: url(../img/hero/mj-GO-free-30-days.png) no-repeat left center;
+	height: 90px !important;
+  width: 250px;
+  padding-left: 84px !important;
+  padding-top: .6em !important;
+  margin-top: .7em;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  line-height: 130%;
+}
+
+	li.dates,
+	li.confcall,
+	li.app,
+	li.preorder {
+		background:none;
+	}
+	li.preorder {
+		width: 100%;
+		padding-left: 0 !important;
+		padding-top: .7em !important;
+		margin-top: 4.5em !important;
+		height: 37px !important;
+		font-size: 11px;
+		font-weight: 800;
+		text-align: center;
+	}
+	a.mj-go-button,
+	a.mj-go-button-video {
+		display: inline-block;
+		background-color: #fff;
+		color: #000;
+		font-weight: bold;
+		padding: 8px;
+		border-radius: 4px;
+		margin: 0 5px 5px 5px;
+	}
+
+#overview {
+  height: 610px;
+  width: 100%;
+  background: url(../img/overview-bg.jpg) repeat-x center top;
+  padding: 75px 0;
+}
+@media only screen and (max-width: 1200px) {
+  #overview {
+    height: auto;
+  }
+}
+#overview h1 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin-top:0;
+  padding-top:0;
+}
+#overview p.header,
+#overview p {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  color: #8a9598;
+  font-size: 14px;
+  line-height: 1.6em;
+  padding: 0 68px;
+  margin-bottom: 55px;
+}
+#overview div.cost-table {
+	max-width:500px;
+	padding-bottom:30px;
+}
+@media (min-width:992px){
+	#overview div.cost-table {
+		float:right;
+	}
+}
+#overview div.cost-table table {
+	border:0;
+	width:100%;
+	margin-bottom:20px;
+}
+#overview div.cost-table table td {
+	vertical-align:middle;
+	color:#FFF;
+	padding:5px 10px;
+	font-size:21px;
+	font-weight:200;
+}
+#overview div.cost-table table td.first {
+	width:120px;
+	text-align:center;
+	border-right:1px solid;
+}
+#overview div.cost-table table td.last {
+	padding-left:25px;
+	text-align:left;
+	padding-right:50px;
+}
+#overview div.cost-table table tr.first td{
+	background:#45B941;
+	border-bottom:2px solid;
+}
+#overview div.cost-table table tr.last td{
+	background:#373737;
+}
+#overview div.cost-table table tr.first td.first{
+	border-radius:6px 0 0 0;
+}
+#overview div.cost-table table tr.first td.last {
+	border-radius:0 6px 0 0;
+}
+#overview div.cost-table table tr.last td.first {
+	border-radius:0 0 0 6px;
+}
+#overview div.cost-table table tr.last td.last {
+	border-radius:0 0 6px 0;
+}
+#overview div.bullet {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:184px;
+	text-align:left;
+	background:url(../img/green-tick.png) no-repeat left center;
+	padding:1px 5px 1px 25px;
+	margin:0 0 0 8px;
+}
+@media (min-width:409px){ #overview div.bullet { float:left } }
+@media (min-width:425px){ #overview div.bullet { margin:0 0 0 16px } }
+@media (min-width:441px){ #overview div.bullet { margin:0 0 0 24px } }
+@media (min-width:457px){ #overview div.bullet { margin:0 0 0 32px } }
+@media (min-width:473px){ #overview div.bullet { margin:0 0 0 40px } }
+@media (min-width:489px){ #overview div.bullet { margin:0 0 0 48px } }
+@media (min-width:505px){ #overview div.bullet { margin:0 0 0 56px } }
+#overview .callout {
+	width:151px;
+	height:151px;
+	background:url(../img/overview-callout-circle.png) no-repeat 0 0;
+	text-align:center;
+	padding-top:5px;
+}
+#overview .callout h2 {
+	margin: 13px 0 1px 0;
+}
+#overview .callout h2, #overview .callout h2 strong, #overview .callout h2 small {
+	color:#45B941;
+	font:normal normal normal 24px 'Proxima Nova', sans-serif;
+	display:block;
+}
+#overview .callout h2 strong {
+	font-size:26px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+#overview .callout h2 small {
+	font-size:13px;
+}
+#overview .callout p {
+	padding:0 10px;
+	margin-bottom:55px;
+}
+#overview .callout p, #overview .callout p strong {
+	color:#8A9598;
+	font:normal normal normal 11px 'Proxima Nova', sans-serif;
+	line-height:1.2em;
+}
+#overview .callout p strong {
+	font-weight:bold;
+}
+#overview .bucket {
+	position:relative;
+	background:url(../img/overview-mjGO.png) no-repeat;
+	background-position:center -10px;
+	height:320px;
+}
+#overview .bucket .callout {
+	position:absolute;
+	top:140px;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+@media (min-width:768px) {
+	#overview .bucket {
+		height:220px;
+		width:460px;
+		background-position:left -10px;
+	}
+	#overview .bucket .callout {
+		top:10px;
+		left:auto;
+		right:0;
+	}
+}
+@media (min-width:992px) {
+	#overview p.header {
+		max-width:630px;
+	}
+	#overview div.cost-table {
+		float:left;
+		width:500px;
+		margin:0 25px 0 85px;
+	}
+	#overview .bucket {
+		float:left;
+		width:301px;
+	}
+	#overview .bucket .callout {
+		position:absolute;
+		top:-118px;
+		right:-15px;
+	}
+}
+#overview .cost-bucket {
+  border-right: 1px solid #bfc5c6;
+  color: #7b1fa6;
+  padding-bottom: 0px;
+  padding-left: 40px;
+}
+#overview .cost-bucket h2 {
+  line-height: 1em;
+  padding-left: 46px;
+  font: normal normal bold 14px 'Proxima Nova', sans-serif;
+  font-size: 62px;
+  margin: 2px 0 0 0;
+}
+#overview .cost-bucket h2 span {
+  display: inline-block;
+  margin-top: 5px;
+}
+#overview .cost-bucket h2 span.small-upper {
+  vertical-align: text-top;
+  font-size: 30px;
+}
+#overview .cost-bucket h2 span.small-year {
+  position: relative;
+  left: -46px;
+  font-size: 18px;
+}
+#overview .cost-bucket .underline {
+  color: #7b1fa6;
+  text-decoration: none;
+}
+#overview .cost-bucket .underline:hover {
+  text-decoration: underline;
+}
+#overview .cost-bucket h3 {
+  line-height: 1em;
+  margin: 0;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 13px;
+  color: #7b1fa6;
+  margin-bottom: 20px;
+  padding: 0 15px 0 50px;
+}
+#overview .cost-bucket p {
+  font-size: 12px;
+  line-height: 1.1em;
+  margin-bottom: 0px;
+  padding: 0 50px;
+}
+#overview .features-bucket ul {
+  padding-top: 0px;
+  padding-left: 30px;
+  text-align: left;
+  margin-top: -10px;
+}
+#overview .features-bucket ul li {
+  padding-left: 25px;
+  padding-top: 1px;
+  background: url(../img/green-tick.png) no-repeat left center;
+  color: #45b941;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#overview .mj-callout-bucket {
+  background: url(../img/overview-mjGO.png) no-repeat center -10px;
+  height: 200px;
+  position: relative;
+}
+#overview .mj-callout-bucket .callout {
+  position: absolute;
+  width: 151px;
+  height: 151px;
+  top: -114px;
+  right: 37px;
+  background: url(../img/overview-callout-circle.png) no-repeat 0 0;
+  text-align: center;
+  padding-top: 5px;
+}
+#overview .mj-callout-bucket .callout h2 {
+  color: #45b941;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  margin: 13px 0 1px 0;
+}
+#overview .mj-callout-bucket .callout h2 strong {
+  font: normal normal bold 14px 'Proxima Nova', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  display: block;
+}
+#overview .mj-callout-bucket .callout h2 small {
+  margin-top: 3px;
+  font-size: 13px;
+  display: block;
+  color: #45b941;
+}
+#overview .mj-callout-bucket .callout p {
+  font-size: 11px;
+  padding: 0 10px;
+  line-height: 1.2em;
+}
+#overview .buttons {
+  margin-top: 10px;
+}
+#overview .mj-btn {
+  display: inline-block;
+  margin: 0 4px;
+}
+@media only screen and (max-width: 767px) {
+  #overview {
+    background: #fff;
+  }
+  #overview p {
+    padding: 0 10px;
+  }
+  #overview .cost-bucket h2 {
+    padding-left: 0px;
+  }
+  #overview .cost-bucket h3 {
+    padding: 0 30px 0 30px;
+  }
+  #overview .features-bucket {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #overview .features-bucket ul {
+    display: inline-block;
+    width: auto;
+    padding-left: 0;
+  }
+  #overview .mj-callout-bucket {
+    height: 320px;
+    padding-top: 150px;
+    background-position: center top;
+    text-align: center;
+  }
+  #overview .mj-callout-bucket .callout {
+    position: static;
+    display: inline-block;
+  }
+  #overview .buttons a {
+    margin: 5px 0;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #overview .cost-bucket {
+    padding: 0;
+  }
+  #overview .cost-bucket,
+  #overview .features-bucket {
+    margin-bottom: 40px;
+    /* margin: 40px 0;
+      float: none;*/
+  }
+  #overview div.mj-callout-bucket {
+    clear: both;
+  }
+  #overview div.mj-callout-bucket div.callout {
+    position: relative;
+    top: auto;
+    right: 0;
+    float: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #overview div.mj-callout-bucket div.callout {
+    float: none;
+  }
+}
+#calling {
+  background: #1fa8e3 url(../img/calling-bg.jpg) no-repeat center center;
+  height: 610px;
+  min-height: 610px;
+}
+@media only screen and (max-width: 1200px) {
+  #calling {
+    height: auto;
+  }
+}
+#calling h3 {
+  margin-top: 50px;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+#calling .buckets {
+  color: #fff;
+  margin-top: 45px;
+}
+@media (max-width: 992px) {
+  #calling .buckets > div {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  #calling .buckets > div {
+    width: 80%;
+  }
+}
+#calling .buckets .callerID,
+#calling .buckets .globe,
+#calling .buckets .phone-2-phone,
+#calling .buckets .phone {
+  background: url(../img/key-sprites.png) no-repeat;
+  display: block;
+}
+#calling .buckets .callerID {
+  background-position: 0 13px;
+  width: 120px;
+  height: 100px;
+}
+#calling .buckets .globe {
+  background-position: 0 -81px;
+  width: 120px;
+  height: 100px;
+}
+#calling .buckets .phone-2-phone {
+  background-position: 0 -287px;
+  width: 120px;
+  height: 100px;
+}
+#calling .buckets .phone {
+  background-position: 0 -184px;
+  width: 120px;
+  height: 100px;
+}
+#calling .buckets h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 767px) {
+  #calling .buckets h2 {
+    text-align: center;
+  }
+  #calling .buckets .callerID,
+  #calling .buckets .globe,
+  #calling .buckets .phone-2-phone,
+  #calling .buckets .phone {
+    margin: 0 auto;
+  }
+  #calling .buckets p {
+    text-align: center;
+  }
+}
+#calling .buckets p {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  line-height: 1.5em;
+  font-size: 14px;
+}
+@media only screen and (max-width: 992px) {
+  #calling .buckets {
+    margin: 20px 0;
+  }
+  #calling h1 {
+    margin-top: 60px;
+  }
+}
+#setup {
+  background: #ffffff url(../img/setup-bg.jpg) no-repeat center bottom;
+  height: 610px;
+  min-height: 500px;
+  padding: 28px 0;
+}
+@media only screen and (max-width: 1200px) {
+  #setup {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #setup {
+    text-align: center;
+    background: #fff;
+  }
+  #setup div.steps,
+  #setup div.steps div {
+    padding: 0 10px;
+    margin: 20px 0;
+  }
+}
+#setup p {
+  color: #8a9598;
+  line-height: 1.3em;
+  margin: 15px 0;
+}
+#setup a.play-video {
+  display: block;
+}
+#setup a.mj-btn {
+  margin-top: 20px;
+  width: 220px;
+  text-align: center;
+}
+#setup h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+#setup .steps {
+  text-align: center;
+  padding: 0 35px 0 95px;
+}
+#setup .steps h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  margin: 10px 0;
+}
+#setup .steps .step2 {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 992px) {
+  #setup .steps {
+    padding: 0 15px 0 60px;
+  }
+  #setup .steps .step2 {
+    margin-top: 60px;
+  }
+}
+#goodbye-bills {
+  background: #f5f5f5 url(../img/bill-bg.jpg) no-repeat center bottom;
+  height: 610px;
+  min-height: 510px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+@media only screen and (max-width: 1200px) {
+  #goodbye-bills {
+    height: auto;
+  }
+}
+#goodbye-bills h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+#goodbye-bills p {
+  color: #8a9598;
+  line-height: 1.4em;
+  padding: 0 130px;
+  margin: 20px 0;
+}
+#goodbye-bills .savings {
+  color: #8a9598;
+}
+#goodbye-bills .savings > div {
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  #goodbye-bills .savings > div {
+    margin-top: 40px;
+  }
+}
+#goodbye-bills .savings strong {
+  font: normal normal bold 14px 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+#goodbye-bills .savings h3 {
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 62px;
+  color: #1fa8e3;
+  line-height: 1em;
+}
+#goodbye-bills .savings h3 > small {
+  color: #1fa8e3;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 30px;
+  vertical-align: text-top;
+  display: inline-block;
+  margin-top: 5px;
+}
+#goodbye-bills .savings p {
+  padding: 0;
+  margin: 0;
+}
+#goodbye-bills .savings .line-seperator {
+  height: 1px;
+  border-bottom: 1px solid #bfc5c6;
+  width: 50%;
+  margin: 5px auto;
+  display: block;
+}
+#goodbye-bills .savings .purple {
+  font-size: 12px;
+  color: #7b1fa6;
+}
+#goodbye-bills .savings small {
+  display: block;
+  font-size: 12px;
+}
+#goodbye-bills .stack-up h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  padding: 0 130px;
+  margin: 40px 0 20px 0;
+  line-height: 1.2em;
+}
+#goodbye-bills .stack-up .mj-btn {
+  	width: 180px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+@media only screen and (max-width: 767px) {
+  #goodbye-bills p {
+    padding: 0;
+  }
+  #goodbye-bills .stack-up h2 {
+    padding: 0;
+  }
+}
+#app-location {
+  height: 610px;
+  background: url(../img/app-bg.jpg) repeat-x top;
+}
+@media only screen and (max-width: 1200px) {
+  #app-location {
+    height: auto;
+  }
+}
+#app-location .push {
+  margin-top: 90px;
+}
+#app-location h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: white;
+  padding: 0 100px 0 0;
+}
+
+#app-location p {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  margin-bottom: 75px;
+  line-height: 1.4em;
+  padding: 0 160px 0 0px;
+  color: white;
+}
+#app-location .iphone {
+  height: 610px;
+  background: url(../img/iphone.jpg) no-repeat;
+  background-position: 0 0;
+}
+#app-location ul {
+  list-style: none;
+  padding: 0;
+}
+#app-location ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#app-location ul li a {
+  background: url(../img/app-rollover-sprite.png) no-repeat;
+}
+#app-location ul li .istore {
+  background-position: 0 0;
+  width: 192px;
+  height: 60px;
+  display: block;
+}
+#app-location ul li .istore:hover {
+  background-position: 0 -66px;
+}
+#app-location ul li .googleplay {
+  background-position: 0 -131px;
+  width: 192px;
+  height: 60px;
+  display: block;
+}
+#app-location ul li .googleplay:hover {
+  background-position: 0 -198px;
+}
+@media only screen and (max-width: 992px) {
+  #app-location .push {
+    margin-top: 50px;
+  }
+  #app-location h1 {
+    padding: 0;
+  }
+  #app-location p {
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  #app-location li {
+    margin: 10px 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #app-location {
+    padding: 40px 0;
+  }
+  #app-location .push {
+    margin-top: 18px;
+  }
+  #app-location img {
+    display: block;
+    margin: 0 auto;
+  }
+  #app-location h3 {
+    text-align: center;
+	  padding: 0;
+  }
+
+  #app-location p {
+    text-align: center;
+  }
+  #app-location ul.app-links {
+    width: 195px;
+    margin: 0 auto 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  section#app-location {
+    height: auto;
+  }
+}
+#client-carousel {
+  height: 510px;
+  min-height: 500px;
+    background-color: #eee;
+}
+@media only screen and (max-width: 1200px) {
+  #client-carousel {
+    height: auto;
+	  padding: 22px 0;
+      background-color: #eee;
+  }
+}
+#client-carousel h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 31px;
+  text-align: center;
+  margin: 28px 0;
+}
+@media only screen and (max-width: 992px) {
+  #client-carousel h1 {
+    margin: 20px 0 30px 0;
+  }
+}
+#client-carousel ol.carousel-indicators li.rollover {
+  border: 2px solid #1fa8e3;
+  margin: 0px 3px;
+  width: 12px;
+  height: 12px;
+}
+#client-carousel ol.carousel-indicators li.rollover:hover {
+  background: #CACACA;
+  border-color: #CACACA;
+}
+#client-carousel ol.carousel-indicators li.rollover.active {
+  background-color: #1fa8e3;
+}
+@media only screen and (max-width: 767px) {
+  #client-carousel .carousel-control {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #client-carousel .carousel-inner {
+    height: 560px;
+  }
+}
+#client-carousel .carousel-inner .item {
+  height: 250px;
+}
+#client-carousel .carousel-inner .item h3 {
+  display: block;
+  height: 120px;
+  line-height: 120px;
+  margin: 0;
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  #client-carousel .carousel-inner .item {
+    height: 520px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #client-carousel .carousel-inner .item {
+    height: 580px;
+  }
+}
+#client-carousel #carousel-clients {
+  padding-bottom: 60px;
+}
+#client-carousel .laptop,
+#client-carousel .latimes,
+#client-carousel .nytimes,
+#client-carousel .pcmag,
+#client-carousel .techc,
+#client-carousel .usnews,
+#client-carousel .cnbc,
+#client-carousel .cnet,
+#client-carousel .creports,
+#client-carousel .fastc,
+#client-carousel .bbcnews,
+#client-carousel .pcworld {
+  background: url(../img/testimonials-sprites.png) no-repeat 0 0;
+  display: inline-block;
+  text-indent: -9999px;
+  vertical-align: middle;
+}
+#client-carousel .bbcnews {
+  background-position: -89px -342px;
+  width: 102px;
+  height: 78px;
+}
+#client-carousel .cnet {
+  background-position: 0 -449px;
+  width: 77px;
+  height: 76px;
+}
+#client-carousel .creports {
+  background-position: 0 -113px;
+  width: 235px;
+  height: 31px;
+}
+#client-carousel .fastc {
+  background-position: 0 -78px;
+  width: 176px;
+  height: 26px;
+}
+#client-carousel .laptop {
+  background-position: 0 -195px;
+  width: 149px;
+  height: 32px;
+}
+#client-carousel .latimes {
+  background-position: 0 -39px;
+  width: 231px;
+  height: 30px;
+}
+#client-carousel .nytimes {
+  background-position: 0 0;
+  width: 237px;
+  height: 33px;
+}
+#client-carousel .pcmag {
+  background-position: 0 -341px;
+  width: 77px;
+  height: 100px;
+}
+#client-carousel .pcworld {
+  background-position: 0 -153px;
+  width: 148px;
+  height: 33px;
+}
+#client-carousel .techc {
+  background-position: 0 -238px;
+  width: 236px;
+  height: 33px;
+}
+#client-carousel .usnews {
+  background-position: 0 -278px;
+  width: 194px;
+  height: 54px;
+}
+#client-carousel p {
+  padding: 0 30px;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  color: #222222;
+  line-height: 1.4em;
+}
+@media only screen and (max-width: 992px) {
+  #client-carousel {
+    padding: 30px 0;
+  }
+}
+#info-rates {
+  height: 1040px;
+  padding: 40px 0;
+  background: #7b1fa6 url(../img/rates-bg.jpg) no-repeat top;
+  background-size: cover;
+}
+@media only screen and (max-width: 767px) {
+  #info-rates {
+    height: auto;
+    background: #7b1fa6;
+  }
+}
+#info-rates #intl-hello {
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+#info-rates .container {
+  background: url(../img/world-map.png) no-repeat center top;
+}
+#info-rates h4 {
+  text-align: center;
+  color: white;
+  margin-top: 78px;
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 82px;
+}
+#info-rates h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 31px;
+  text-align: center;
+  color: white;
+}
+#info-rates .free-info .bucket {
+  background: rgba(0, 0, 0, 0.3);
+  margin-left: 10px;
+  padding: 10px;
+  margin-top: 40px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+#info-rates .free-info .bucket.us-canada {
+  margin-left: 0;
+  margin-right: 10px;
+}
+#info-rates .free-info .bucket h4 {
+  color: #45b941;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+#info-rates .free-info .bucket span {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #4ab748;
+  display: block;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  line-height: 25px;
+}
+#info-rates .free-info .bucket p {
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 0 10px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 767px) {
+  #info-rates .free-info div.bucket {
+    margin-left: 0;
+  }
+  #info-rates .free-info div.bucket.us-canada {
+    margin-right: 0;
+  }
+}
+#info-rates .rates-txt h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  color: #4ab748;
+  padding-top: 30px;
+  border-top: 1px solid white;
+  margin: 20px auto;
+  width: 83%;
+}
+#info-rates .rates-txt .lw-txt {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  display: block;
+  line-height: 20px;
+}
+#info-rates .rates-txt .rate-chart {
+  padding: 0;
+  margin: 15px auto 0;
+  text-align: center;
+}
+#info-rates .rates-txt .rate-chart li {
+  width: 138px;
+  display: inline-block;
+  border: 1px solid #45b941;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+#info-rates .rates-txt .rate-chart li h4 {
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  color: #45b941;
+  text-align: center;
+  margin-top: 15px;
+}
+#info-rates .rates-txt .rate-chart li h4 span {
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+#info-rates .rates-txt .rate-chart li p {
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 42px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+#info-rates .rates-txt .rate-chart li .min {
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  color: #45b941;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#info-rates .rates-txt .mj-btn {
+  margin-top: 30px;
+}
+#info-rates .rates-txt .find-your-rate {
+  display: block;
+  width: 190px;
+  margin: 30px auto 0;
+  background-color: white;
+  padding: 12px 10px;
+  border-radius: 5px;
+  color: #7b1fa6;
+  text-transform: uppercase;
+}
+#info-rates .rates-txt .find-your-rate:hover {
+  text-decoration: none;
+  background-color: #7b1fa6;
+  color: white;
+}
+@media only screen and (max-width: 767px) {
+  #info-rates .rates-txt .find-your-rate {
+    margin: 30px auto 50px;
+  }
+}
+
+/* Plans Section */
+#plans {
+  padding: 160px 0 0 0;
+}
+#plans .magicjack-big {
+  margin-bottom: 40px;
+}
+#plans .grey {
+  background-color: #f5f5f5;
+}
+#plans .grey .header-section {
+  height: 110px;
+  border-bottom: 1px solid #8a9598;
+  padding-top: 30px;
+}
+#plans .grey .header-section h1 {
+  height: 30px;
+  margin: 0;
+}
+#plans .grey .header-section h1 img {
+  vertical-align: top;
+}
+#plans .grey .header-section span {
+  height: 30px;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 33.9px;
+  display: inline-block;
+}
+#plans .grey .header-section .tag-line {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #45b941;
+  -webkit-font-smoothing: antialiased;
+}
+#plans .grey .body-section {
+  height: 460px;
+}
+#plans .grey .body-section h1 {
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 74.39px;
+  color: #1fa8e3;
+  text-transform: uppercase;
+}
+#plans .grey .body-section p {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 20px;
+  color: #8a9598;
+  padding: 0 20px;
+}
+#plans .grey .body-section h3 {
+  margin: 0;
+  vertical-align: top;
+  color: #1fa8e3;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 62px;
+}
+#plans .grey .body-section h3 small {
+  color: #1fa8e3;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+}
+#plans .grey .footer-section a {
+  position: relative;
+  bottom: 20px;
+}
+#plans .center .header-section {
+  padding-top: 30px;
+}
+@media only screen and (max-width: 767px) {
+  #plans .center {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
+#plans .tiny-info {
+  margin: 40px 0;
+}
+#plans .product .header-section {
+  height: 110px;
+  border-bottom: 1px solid #8a9598;
+}
+#plans .product .header-section .savings-text {
+  height: 30px;
+}
+#plans .product .header-section .savings-text strong {
+  color: #45b941;
+  font-family: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+}
+#plans .product .header-section .tag-line {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 37.33px;
+  line-height: 37.33px;
+  -webkit-font-smoothing: antialiased;
+}
+#plans .product .body-section {
+  height: 460px;
+}
+#plans .product .body-section h1 {
+  color: #7b1fa6;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 74.39px;
+}
+#plans .product .body-section h1 small {
+  color: #7b1fa6;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 36.88px;
+  vertical-align: top;
+  margin-top: 3px;
+  display: inline-block;
+}
+#plans .product .body-section h1 p {
+  color: black;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin-top: -7px;
+}
+#plans .product .body-section .unlimited {
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 17px;
+  color: #8a9598;
+  padding: 0 30px;
+  margin-top: 40px;
+}
+#plans .product .body-section ul {
+  padding-top: 0px;
+  padding-left: 30px;
+  text-align: left;
+  width: 220px;
+  margin: 30px auto 0;
+}
+#plans .product .body-section ul li {
+  padding-left: 25px;
+  padding-top: 1px;
+  background: url(../img/green-tick.png) no-repeat left center;
+  color: #45b941;
+  font-size: 17px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+#plans .product .footer-section a {
+  position: relative;
+  bottom: 20px;
+}
+/* Features Section */
+#top-section {
+  background: #ffffff url(../img/magicjack-top-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+#top-section .wrapper h1 {
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 46.67px;
+  color: #7b1fa6;
+  margin-top: 40px;
+  position: relative;
+  top: 90px;
+  line-height: 1em;
+}
+#top-section .wrapper .magicjack-product {
+  position: relative;
+  top: 120px;
+  left: 50%;
+}
+#top-section .wrapper a {
+  position: relative;
+  top: 100px;
+  font-size: 23.62px;
+  padding: 19px 35px;
+  -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 767px) {
+  #top-section .wrapper h1 {
+    font-size: 20.67px;
+    margin-top: 60px;
+    top: 80px;
+  }
+  #top-section .wrapper a {
+    top: 80px;
+    font-size: 10.62px;
+    padding: 10px 15px;
+  }
+  #top-section .wrapper .magicjack-product {
+    top: 90px;
+    left: 10%;
+    width: 275px;
+  }
+  #top-section .wrapper .magicjack-product img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #top-section div.container div.row div.magicjack-product {
+    left: 36%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #top-section {
+    background-position: center -10px;
+  }
+  #top-section div.container div.row div.magicjack-product {
+    left: 10%;
+  }
+}
+#introducing-magicjack .first {
+  margin-top: 80px;
+}
+#introducing-magicjack .first h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+#introducing-magicjack .first .two {
+  border-right: 1px solid #8a9598;
+  padding: 5px;
+}
+#introducing-magicjack .first .two .pricing {
+  color: #7b1fa6;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 62px;
+}
+#introducing-magicjack .first .two .pricing small {
+  color: #7b1fa6;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 30px;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 3px;
+}
+#introducing-magicjack .first .two .pricing-info {
+  display: block;
+  color: #7b1fa6;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 12px;
+  padding: 0 30px;
+  margin-bottom: 25px;
+}
+#introducing-magicjack .first .three .box {
+  width: 151px;
+  height: 151px;
+  background: url(../img/overview-callout-circle.png) no-repeat 0 0;
+  position: relative;
+  top: -15px;
+  margin: 0 auto;
+}
+#introducing-magicjack .first .three .box h2 {
+  color: #45b941;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  top: 20px;
+}
+#introducing-magicjack .first .three .box h2 strong {
+  font-size: 26px;
+  text-transform: uppercase;
+  display: block;
+}
+#introducing-magicjack .first .three .box h2 small {
+  color: #45b941;
+  font-size: 13px;
+  display: block;
+  padding: 0 10px;
+}
+#introducing-magicjack .first .three .box p {
+  color: #8a9598;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 11px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.1em;
+  margin-top: 23px;
+}
+@media only screen and (max-width: 992px) {
+  #introducing-magicjack .first .two {
+    margin-left: 40px;
+  }
+  #introducing-magicjack .top-border .push ul li {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #introducing-magicjack .first {
+    margin-top: 55px;
+  }
+  #introducing-magicjack .first h1 {
+    font-size: 20px;
+    padding: 0 50px;
+  }
+  #introducing-magicjack .first .two {
+    margin-left: 25px;
+  }
+  #introducing-magicjack .first .two .pricing {
+    font-size: 35px;
+  }
+  #introducing-magicjack .first .two .pricing small {
+    font-size: 18px;
+  }
+  #introducing-magicjack .first .two .pricing-info {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  #introducing-magicjack .first .two a {
+    padding: 10px 15px;
+    font-size: 10px;
+  }
+  #introducing-magicjack .first .three .box {
+    width: 120px;
+    background-size: 90%;
+    background-position: 5px 24px;
+    top: -25px;
+    left: auto;
+    padding-top: 5px;
+  }
+  #introducing-magicjack .first .three .box h2 {
+    margin: 20px 0 0;
+    top: 10px;
+    font-size: 18px;
+  }
+  #introducing-magicjack .first .three .box h2 strong {
+    font-size: 20px;
+  }
+  #introducing-magicjack .first .three .box h2 small {
+    font-size: 10px;
+    padding: 0 20px;
+  }
+  #introducing-magicjack .first .three .box p {
+    padding: 0 20px;
+    margin: 15px 0 0;
+    font-size: 7px;
+  }
+}
+#introducing-magicjack .top-border {
+  min-height: 630px;
+  padding-top: 50px;
+  border-top: 1px solid #8a9598;
+  margin-top: 30px;
+  background: #ffffff url(../img/magicjack-product-2.png) no-repeat right 145px;
+}
+#introducing-magicjack .top-border h2 {
+  margin-top: 0;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+#introducing-magicjack .top-border ul {
+  list-style: none;
+}
+#introducing-magicjack .top-border ul li {
+  padding-left: 25px;
+  padding-top: 1px;
+  background: url(../img/green-tick.png) no-repeat left center;
+  color: #45b941;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0;
+  -webkit-font-smoothing: antialiased;
+}
+#introducing-magicjack .top-border .video-holder {
+  padding-right: 20px;
+}
+#introducing-magicjack .top-border .video-holder a {
+  display: block;
+  max-width: 100%;
+}
+#introducing-magicjack .top-border .video-holder a img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+#introducing-magicjack .top-border .push {
+  padding-left: 20px;
+}
+@media only screen and (max-width: 767px) {
+  #introducing-magicjack .top-border {
+    padding-top: 30px;
+    margin-top: 0;
+    background: #FFF;
+  }
+  #introducing-magicjack .top-border .video-holder {
+    padding-right: 5px;
+  }
+  #introducing-magicjack .top-border .video-holder a img {
+    width: 100%;
+    height: 100%;
+  }
+  #introducing-magicjack .top-border div h1 {
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+  }
+  #introducing-magicjack .top-border div h1 br {
+    display: none;
+  }
+  #introducing-magicjack .top-border div ul.list-one {
+    margin-left: 13px;
+  }
+  #introducing-magicjack .top-border div ul.list-one li {
+    font-size: 12px;
+  }
+  #introducing-magicjack .top-border div ul.list-two li {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #introducing-magicjack {
+    height: auto;
+  }
+}
+#compromise {
+  height: 760px;
+  background: #000000 url(../img/feature-bg.jpg) no-repeat center 0;
+  background-size: cover;
+}
+#compromise .customer-service,
+#compromise .savings {
+  background: url(../img/features-sprites.png) no-repeat;
+}
+#compromise .icon {
+  height: 85px;
+  display: block;
+  margin-bottom: 10px;
+}
+#compromise .customer-service {
+  background-position: 0 -89px;
+  width: 105px;
+}
+#compromise .savings {
+  background-position: 0 0;
+  width: 75px;
+}
+#compromise h2 {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+#compromise .callerID {
+  background-position: 0 13px;
+  width: 120px;
+  height: 100px;
+}
+#compromise .phone-2-phone {
+  background-position: -20px -287px;
+  width: 120px;
+  height: 100px;
+}
+#compromise p {
+  color: white;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+#compromise .middle {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 767px) {
+  #compromise {
+    height: auto;
+    background: #1fa7e1;
+    background-size: auto;
+  }
+  #compromise h1 {
+    font-size: 20px;
+  }
+  #compromise .icon {
+    margin: 0 auto;
+  }
+  #compromise .phone-2-phone {
+    width: 80px;
+  }
+  #compromise .savings {
+    margin-top: 20px;
+  }
+  #compromise p {
+    text-align: center;
+    font-size: 16px;
+  }
+  #compromise .last {
+    margin-bottom: 100px;
+  }
+}
+#connect-yourway {
+  overflow: hidden;
+}
+#connect-yourway .row {
+  margin-bottom: 80px;
+}
+#connect-yourway .row .icon {
+  width: 106px;
+  margin: 100px auto 0;
+  height: 80px;
+  display: block;
+}
+#connect-yourway .row h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+#connect-yourway .row p {
+  color: #8a9598;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 13.02px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+#connect-yourway .row .anywhere-items {
+  right: 34%;
+  display: block;
+  position: relative;
+  z-index: 9;
+}
+#connect-yourway .row .macbook {
+  margin-top: 80px;
+}
+@media only screen and (max-width: 767px) {
+  #connect-yourway .row h1 {
+    font-size: 22px;
+  }
+  #connect-yourway .row p {
+    font-size: 9px;
+  }
+  #connect-yourway .row .macbook {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+}
+#anywhere {
+  background: #1d9cd3 url(../img/phone-anywhere.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+#anywhere .one {
+  margin-top: 110px;
+}
+#anywhere .one .globe {
+  background-position: 0 -81px;
+  width: 120px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+#anywhere .one h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: white;
+}
+#anywhere .two div {
+  padding: 0 70px;
+}
+#anywhere .two div h2 {
+  color: white;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 44px;
+}
+#anywhere .two div h2 p {
+  color: white;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+#anywhere .two div small {
+  color: white;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14.02px;
+  line-height: 1.4em;
+  -webkit-font-smoothing: antialiased;
+}
+#anywhere .three {
+  margin-bottom: 180px;
+}
+#anywhere .three div {
+  padding: 0 70px;
+}
+#anywhere .three div h2 {
+  color: white;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 44px;
+}
+#anywhere .three div h2 p {
+  color: white;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  -webkit-font-smoothing: antialiased;
+}
+#anywhere .three div small {
+  color: white;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14.02px;
+  line-height: 1.4em;
+  -webkit-font-smoothing: antialiased;
+}
+@media only screen and (max-width: 767px) {
+  #anywhere .one .globe {
+    width: 105px;
+  }
+  #anywhere .one h1 {
+    font-size: 20px;
+  }
+  #anywhere .two div h1 {
+    font-size: 32px;
+  }
+  #anywhere .two div h1 p {
+    font-size: 14px;
+  }
+  #anywhere .two div small {
+    font-size: 8px;
+  }
+  #anywhere .three div h1 {
+    font-size: 32px;
+  }
+  #anywhere .three div h1 p {
+    font-size: 14px;
+  }
+  #anywhere .three div small {
+    font-size: 8px;
+  }
+}
+#awards .row {
+  margin: 115px 0 105px;
+}
+#awards .row h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  -webkit-font-smoothing: antialiased;
+}
+#awards .row h3 {
+  color: #1fa8e3;
+  font: normal normal 800 14px 'Proxima Nova', sans-serif;
+  font-size: 44px;
+}
+#awards .row p {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+#awards .row p small {
+  color: #8a9598;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+#awards .row .two img {
+  margin-top: 35px;
+}
+@media only screen and (max-width: 767px) {
+  #awards .row h1 {
+    font-size: 22px;
+  }
+  #awards .row .fs {
+    width: 80%;
+  }
+  #awards .row h2 {
+    font-size: 22px;
+  }
+  #awards .row p {
+    font-size: 16px;
+  }
+  #awards .row p small {
+    font-size: 9px;
+  }
+  #awards .row .product-3 {
+    width: 100%;
+    height: 100%;
+  }
+}
+#phone-app {
+  background-color: #45b941;
+}
+#phone-app .one {
+  margin-top: 110px;
+}
+#phone-app .one h2 {
+  color: white;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  width: 440px;
+  margin: 0 auto 20px;
+  -webkit-font-smoothing: antialiased;
+}
+#phone-app .two {
+  margin-bottom: 85px;
+}
+#phone-app .two .first {
+  margin-top: 80px;
+}
+#phone-app .two .first .app-icon {
+  margin-bottom: 20px;
+}
+#phone-app .two .first p {
+  color: white;
+  font: normal normal 500 14px 'Proxima Nova', sans-serif;
+  font-size: 14.02px;
+  line-height: 1.5em;
+  padding: 0 20px;
+  -webkit-font-smoothing: antialiased;
+}
+#phone-app .two .third {
+  margin-top: 282px;
+}
+#phone-app .two .third ul {
+  list-style: none;
+  padding: 0;
+}
+#phone-app .two .third ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#phone-app .two .third ul li a {
+  background: url(../img/app-rollover-sprite.png) no-repeat;
+}
+#phone-app .two .third ul li .istore {
+  background-position: 0 0;
+  width: 192px;
+  height: 60px;
+  display: block;
+}
+#phone-app .two .third ul li .istore:hover {
+  background-position: 0 -66px;
+}
+#phone-app .two .third ul li .googleplay {
+  background-position: 0 -131px;
+  width: 192px;
+  height: 60px;
+  display: block;
+}
+#phone-app .two .third ul li .googleplay:hover {
+  background-position: 0 -198px;
+}
+@media only screen and (max-width: 992px) {
+  #phone-app div.third ul.app-links li {
+    float: right;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #phone-app .one h1 {
+    font-size: 22px;
+    width: 100%;
+  }
+  #phone-app .two .first {
+    margin-top: 20px;
+  }
+  #phone-app .two .first p {
+    font-size: 10px;
+  }
+  #phone-app .two .first img {
+    width: 20%;
+  }
+  #phone-app .two .second img {
+    width: 50%;
+  }
+  #phone-app .two .third {
+    margin-top: 20px;
+  }
+  #phone-app .two .third ul {
+    width: 190px;
+    margin: 0 auto;
+  }
+}
+#waiting-for .push {
+  margin: 120px 0 120px;
+}
+#waiting-for .push h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 32px;
+  width: 500px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto 30px;
+}
+#waiting-for .push a {
+  font-size: 23.62px;
+  -webkit-font-smoothing: antialiased;
+  padding: 17px 35px;
+}
+@media only screen and (max-width: 767px) {
+  #waiting-for .push h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+#included {
+  background: #000;
+  color: #fff;
+  padding: 75px 0;
+}
+#included h2 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 28px;
+}
+#included .included-bucket ul {
+  padding: 0;
+  text-align: left;
+  margin: 10px 0;
+}
+@media (max-width: 767px) {
+  #included .included-bucket ul {
+    width: 220px;
+    margin: 0 auto;
+  }
+}
+#included .included-bucket ul li {
+  padding-left: 25px;
+  padding-top: 1px;
+  background: url(../img/gray-tick.png) no-repeat left center;
+  color: #8a9598;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 15px 0;
+}
+#included div.green {
+  color: #45b941;
+  font: normal normal 700 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin: 25px 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+@media (max-width:1199px) {
+  .pre-paid-rates {
+	clear:both;
+  }
+}
+a .vimeo-play, a:hover .vimeo-play, a:link .vimeo-play, a:visited .vimeo-play, a:active .vimeo-play {
+  position:absolute;
+  display:inline-block;
+  width:65px; height:40px;
+  top:40%;    left:50%;
+  margin-left:-32.5px; margin-right:-20px;
+  background:url(../img/icons/vimeo.png) 0 bottom no-repeat;
+}
+a:hover .vimeo-play {
+  background:url(../img/icons/vimeo.png) -65px bottom no-repeat;
+}
+
+
+
+/*-------404 ERROR Page --------*/
+
+
+#errorpage, #errorpage h1, #errorpage h2, #errorpage p {
+  font-family: 'Proxima Nova';
+}
+
+
+#errorpage {
+	padding-bottom: 10em;
+	text-align:center;
+}
+
+#errorpage .error-img {
+	width: 75px;
+	padding-top: 5em;
+}
+
+#errorpage h1 {
+	font-size: 2.2em;
+	padding-bottom: 0.8em;
+	margin-top: 1.5em;
+}
+
+#errorpage p {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#errorpage a {
+	color: #1fa8e3;
+	font-weight: 400;
+}
+
+#errorpage a:visited {
+	color: #1fa8e3;
+}
+	
+@media only screen and (max-width:470px) {
+	
+#errorpage .error-img {
+	width: 70px;
+	padding-top: 1em;
+}	
+	
+#errorpage p {
+	width: 264px;
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#errorpage h1 {
+	font-size: 2.2em;
+	padding-bottom: 0.5em;
+	margin-top: 1.3em;
+}
+	
+}
+/*
+--------SITEMAP--------*/
+
+#sitemap {
+	font-family: 'Proxima Nova';
+}
+
+.sitemap{
+	padding-bottom: 38px;
+}
+
+#sitemap h3 {
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  font-size: 22px;
+}
+#sitemap h1 {
+font-weight: 700;
+text-align: left;
+font-size: 1.65em;
+color: #111;
+margin-top: 28px !important;
+padding-bottom: 12px;
+border-bottom: 1px #DBDBDB solid;}
+
+#sitemap li{
+	list-style-type: disc;
+}
+
+#sitemap ul{
+	line-height: 24px;
+}
+
+#sitemap .glyphicon{
+	font-size: 16px;
+	top: 1px;
+	margin-left: 10px;
+	font-weight: lighter;
+}
+
+#sitemap img{
+	margin-left: 8px;
+	margin-bottom: 1px;
+
+}
+
+/*--------END SITEMAP--------*/
+
+/*--------CCPA--------*/
+
+.ccpa h3{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+.ccpatable{
+border: 1px solid #111111;
+    margin: 18px 0;
+}
+.ccpatable td  {
+	padding: 8px;
+    border: 1px solid #111111;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+
+}
+
+@media screen and (min-width:768px) {
+
+.ccpatable {
+}
+}
+
+/*--------END CCPA--------*/
+

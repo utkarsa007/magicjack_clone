@@ -1,0 +1,340 @@
+.clearer { position:relative; clear:both; margin:0; line-height:0; padding:0; }
+#divColumns { width:900px }
+#divCanadianNav {
+	position:relative;
+	border-top:1px dashed #E6E6E6;
+	border-bottom:1px dashed #E6E6E6;
+	margin:10px 0 10px 10px;
+	padding:10px 0;
+	width:97%;
+	vertical-align:middle
+}
+#divCanadianNav strong {
+	display:inline-block;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	padding:0 15px;
+}
+#divCanadianNav a, #divCanadianNav a:link, #divCanadianNav a:visited, #divCanadianNav a:hover, #divCanadianNav a:focus {
+	display:inline-block;
+	padding:0 15px;
+	color:#666
+}
+#divCanadianNav a, #divCanadianNav a:link { text-decoration:underline}
+#divCanadianNav a:hover, #divCanadianNav a:focus { text-decoration:none }
+#divLeftColumn {
+	position:relative;
+	display:block;
+	padding:20px 12px;
+}
+#divLeftColumn img.header {
+	margin:10px 0 5px 0;
+}
+#divRightColumn {
+	position:relative;
+	display:block;
+	padding:20px 12px;
+	text-align:left;
+}
+#divRightColumn h4 {
+	text-align:left;
+}
+#divRightColumn div.top {
+	display:block;
+	float:left;
+}
+#divRightColumn div.bottom {
+	display:block;
+	float:right;
+	width:253px;
+}
+#divRightColumn div.bottom h4 {
+	padding:0 0 0 13px;
+}
+#divRightColumn p {
+	display:block;
+	padding:10px 17px;
+	font:bold 13px/17px Arial, Helvetica, sans-serif; color:#30A1D6;
+	text-align:center;
+}
+#divRightColumn p span.orange { color:#45B941 }
+#divRightColumn div.bullets {
+	padding:4px 0 12px 11px;
+	font:16px/22px Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+#divRightColumn div.bullets div.itemBullet, #divRightColumn div.bullets div.itmBlt {
+	float:left;
+	font-size:15px;
+	font-style:italic;
+	width:40px;
+	color:#45B941;
+}
+#divRightColumn div.bullets div.itemText, #divRightColumn div.bullets div.itmTxt {
+	float:left;
+	margin-left:5px;
+	width:220px;
+	color:#777;
+}
+@media (max-width:710px){
+	#divRightColumn div.bottom {
+		clear:both;
+		width:100%;
+		text-align:center;
+		margin:top:20px;
+	}
+	#divRightColumn div.bottom h4 {
+		margin-top:20px;
+	}
+	#divRightColumn div.bottom p {
+		text-align:left;
+	}
+}
+@media (min-width:992px){
+	#divLeftColumn {
+		float:left;
+		width:582px;
+		padding:0 0 0 15px
+	}
+	#divRightColumn {
+		float:right;
+		width:287px;
+		padding:0;
+		border-left:1px dashed #E6E6E6;
+	}
+	#divRightColumn div.bottom {
+		width:100%;
+	}
+	#divRightColumn div.bottom h4 {
+		padding:0 5px 0 5;
+	}
+	#divRightColumn h4 {
+		text-align:center;
+	}
+	#divRightColumn div.bullets, #divRightColumn div.bottom {
+		clear:both;
+	}
+} 
+#ifTOS {
+	margin:0 0 10px 10px;
+	width:97%;
+	height:565px;
+	border:0px solid;
+}
+
+div.boxOutline {
+	position:relative;
+	border:1px dotted #999;
+	margin:10px;
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.mjUL a.mjLI, div.mjUL a.mjLI:link, div.mjUL a.mjLI:visited, div.mjUL a.mjLI:hover, div.mjUL a.mjLI:focus,
+div.mjUL a.mjLI_Current, div.mjUL a.mjLI_Current:link, div.mjUL a.mjLI_Current:visited, div.mjUL a.mjLI_Current:hover, div.mjUL a.mjLI_Current:focus {
+	position:relative;
+	display:block;
+	text-decoration:none;
+	color:#000;
+	padding:0 2px 4px 10px;
+}
+div.mjUL a.mjLI_Current, div.mjUL a.mjLI_Current:link, div.mjUL a.mjLI_Current:visited, div.mjUL a.mjLI_Current:hover, div.mjUL a.mjLI_Current:focus { font-weight:bold; }
+div.mjUL a.mjLI div, div.mjUL a.mjLI_Current div {
+	position:absolute;
+	top:3px;
+	left:0;
+	width:9px;
+        height:10px;
+	padding:0 2px
+}
+div.mjUL a.mjLI div span, div.mjUL a.mjLI_Current div span {
+	position:relative;
+	display:block;
+	float:left;
+	font-size:1px;
+	line-height:0;
+	width:1px;
+	border:none;
+	background-color:#666
+}
+div.mjUL a.mjLI_Current div span { background-color:#069; box-sizing:content-box !important }
+div.mjUL a.mjLI div span.line1L, div.mjUL a.mjLI_Current div span.line1L {height:10px;margin:0}
+div.mjUL a.mjLI div span.line2L, div.mjUL a.mjLI_Current div span.line2L {height:8px;margin:1px 0}
+div.mjUL a.mjLI div span.line3L, div.mjUL a.mjLI_Current div span.line3L {height:6px;margin:2px 0}
+div.mjUL a.mjLI div span.line4L, div.mjUL a.mjLI_Current div span.line4L {height:4px;margin:3px 0}
+div.mjUL a.mjLI div span.line5L, div.mjUL a.mjLI_Current div span.line5L {height:2px;margin:4px 0}
+
+div.mjUL div.mjText div.mjStepText {
+	margin:3px 0 0 0;
+	padding:2px 0 2px 10px
+}
+
+div.mjUL div.mjText div.mjStep {
+	position:relative;
+}
+div.mjUL div.mjText a.mjStep, div.mjUL div.mjText a.mjStep:link, div.mjUL div.mjText a.mjStep:visited, div.mjUL div.mjText a.mjStep:hover, div.mjUL div.mjText a.mjStep:focus,
+div.mjUL div.mjText a.mjStep_Current, div.mjUL div.mjText a.mjStep_Current:link, div.mjUL div.mjText a.mjStep_Current:visited, div.mjUL div.mjText a.mjStep_Current:hover, div.mjUL div.mjText a.mjStep_Current:focus {
+	position:relative;
+	display:block;
+	text-decoration:none;
+	padding:2px 2px 4px 10px;
+}
+div.mjUL div.mjText a.mjStep:hover, div.mjUL div.mjText a.mjStep_Current, div.mjUL div.mjText a.mjStep_Current:link, div.mjUL div.mjText a.mjStep_Current:visited, div.mjUL div.mjText a.mjStep_Current:hover, div.mjUL div.mjText a.mjStep_Current:focus {
+	font-weight:bold
+}
+div.mjUL div.mjText a.mjStep div, div.mjUL div.mjText a.mjStep_Current div {
+	position:absolute;
+	top:6px;
+	left:0;
+	width:9px;
+        height:10px;
+	padding:0 2px
+}
+div.mjUL div.mjText a.mjStep div span, div.mjUL div.mjText a.mjStep_Current div span {
+	position:relative;
+	display:block;
+	float:left;
+	font-size:1px;
+	line-height:0;
+	width:1px;
+        border:0 solid #666;
+	border-width:1px 0 1px 0;
+}
+div.mjUL div.mjText a.mjStep div span, div.mjUL div.mjText a.mjStep_Current div span { box-sizing:content-box !important }
+div.mjUL div.mjText a.mjStep:hover div span, div.mjUL div.mjText a.mjStep_Current div span { border-color:#069 }
+div.mjUL div.mjText a.mjStep div span.line1L, div.mjUL div.mjText a.mjStep_Current div span.line1L {height:4px;margin:0   0 0   0}
+div.mjUL div.mjText a.mjStep div span.line2L, div.mjUL div.mjText a.mjStep_Current div span.line2L {height:2px;margin:1px 0 1px 0}
+div.mjUL div.mjText a.mjStep div span.line3L, div.mjUL div.mjText a.mjStep_Current div span.line3L {height:0px;margin:2px 0 2px 0}
+#box570outline, #box570outlineNoMinHeight {
+	position:relative;
+	padding: 12px;
+margin: 0;
+	font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+.return-header{
+	margin-top: 78px;
+	padding: 0 8px;
+}
+
+.return-header h1{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+@media (max-width:768px){
+	.return-header{
+	margin-top:-42px;
+	padding: 0 8px;
+}
+	.return-header h1{
+	font-size: 16px;
+}
+}
+
+#box570outline h1, #box570outlineNoMinHeight h1,
+#box570outline h2, #box570outlineNoMinHeight h2,
+#box570outline h3, #box570outlineNoMinHeight h3 {
+	font-size: 22px;
+line-height: 26px
+}
+#box570outline h1, #box570outlineNoMinHeight h1 {
+	font-size:1.5em;
+	mRGIN-TOP: 30px;
+}
+#box570outline h1, #box570outlineNoMinHeight h2 {
+	line-height:35px
+}
+#box570outline td, #box570outlineNoMinHeight td,
+#box570outline th, #box570outlineNoMinHeight th {
+
+}
+#box570outline th.rptlcap, #box570outlineNoMinHeight th.rptlcap {
+	text-align:left;
+	padding:2px 10px
+}
+#box570outline td.rptstrcap, #box570outlineNoMinHeight td.rptstrcap {
+	font:12px Arial, Helvetica, san-serif;
+	padding:2px 5px
+}
+#box570outline, #box570outlineNoMinHeight {
+}
+#box570outline a, #box570outlineNoMinHeight a,
+#box570outline a:link, #box570outlineNoMinHeight a:link,
+#box570outline a:visited, #box570outlineNoMinHeight a:visited,
+#box570outline a:hover, #box570outlineNoMinHeight a:hover,
+#box570outline a:focus, #box570outlineNoMinHeight a:focus {
+	text-decoration: none;
+	color:#00afec;
+}
+#box570outline a:hover, #box570outlineNoMinHeight a:hover {
+	text-decoration: underline;
+}
+div.popupwin, div.popupwin div {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+#support-list .social{ margin-left:0 }
+
+#legaldoc{
+	padding-bottom: 4em;
+}
+
+#legaldoc h1{
+	font-size: 2.2em;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+#legaldoc h2{
+	font-size: 1.6em;
+	margin-top: 24px;
+}
+
+div.mj-retro-content { margin-left:auto;margin-right:auto;
+	padding-top: 50px;
+	max-width: 972px;
+	padding-left: 5px;
+	padding-right: 5px;}
+
+
+@media (max-width:768px){
+	div.mj-retro-content { max-width:750px; }
+} 
+@media (max-width:992px){
+	div.mj-retro-content { max-width:900px; }
+}
+
+div.store-buttons {
+  float:right
+}
+  div.store-buttons .store-button {
+    display:inline-block;
+    margin-left:0;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    border:1px solid white;
+  }
+  div.store-buttons .store-button:hover {
+    border:1px solid black;
+  }
+  div.store-buttons .store-button:last-of-type {
+    margin-right:0;
+  }
+@media (max-width: 991px) {
+  div.store-buttons {
+    text-align:center;
+    float:none;
+  }
+}
+.french a{
+	color: #45b941;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 500;
+}
+
+.french a:hover{
+	text-decoration: none;
+}

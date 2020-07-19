@@ -1,0 +1,587 @@
+body {
+/*  width: 100%;*/
+}
+#plans {
+  padding-top: 50px;
+  background: url(../img/plans_top_bg.jpg) no-repeat #fff top center;
+  background-image: url(../img/plans_top_bg.jpg), url(../img/plans_mobile_bg.jpg);
+  background-position: center top, center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: -20px;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+}
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3.25em;
+  text-align: center;
+  margin-bottom: 26px;;
+}
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: left;
+  margin-bottom: -12px;
+}
+h3 {
+  text-align: center;
+  font-weight: inherit;
+  font-size: 2.25em;
+  margin-top: 0px;
+}
+h4 {
+  font-weight: inherit;
+  font-size: 1.75em;
+  margin-top: 50px;
+  text-align: left;
+}
+h5 {
+  font-weight: normal;
+  font-size: 1.5em;
+  margin-top: 30px;
+  text-align: left;
+}
+.hero p {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+.info-link {
+  color: #1fa8e3;
+  text-decoration: underline;
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.75em;
+  text-align: center;
+  display: block;
+}
+.row.hero .primary.col-md-6 p {
+  padding: 0px 15px;
+}
+.plan-btn {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;
+  background: none repeat scroll 0 0 #45b941;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 57px;
+  margin: 20px auto;
+  width: 196px;
+  clear: both;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+.plan-btn:hover {
+  background: #8a9598;
+  color: #fff;
+  text-decoration: none;
+}
+.devices {
+  display: block;
+  width: 48%;
+  margin: 20px auto 0 auto;
+}
+.plan-blocks {
+  width: 85%;
+  margin: 20px 0 0 auto;
+}
+.plan-blocks.left {
+  float: right;
+}
+.plan-blocks.right {
+  float: left;
+}
+
+/*  5 YEAR PLAN OFFER*/
+
+.plan-5yr {
+  width: 97%;
+  margin: 8px 0 0;
+    padding: 0;
+}
+.plan-5yr.left {
+  float: right;
+    margin-right: 6px;
+}
+.plan-b5yr.right {
+  float: left;
+}
+
+.five-img {
+    width: 103%;
+}
+
+.fiveyr{
+text-align: center;
+font-size: 15px;
+    line-height: 19px;
+font-weight: 500;
+    clear: both;
+   padding: 10px 8px 0;
+}
+
+.fiveyr span{
+    color: #d3111a;
+}
+
+@media (max-width: 990px) {
+  .fiveyr{
+      margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+    .plan-5yr {
+  width: 95%;
+}
+    
+    .plan-5yr.left {
+  float: right;
+    margin-right: 9px;
+    }
+
+    .five-img {
+    width: 98%;
+}
+}
+    
+
+/*  END 5 YEAR PLAN OFFER*/
+
+.info-panel-left, .info-panel-right {
+  display: block;
+  position: absolute;
+  height: auto;
+  min-height: 500px;
+  width: 550px;
+  top: -4px;
+  z-index: 999;
+  color: #fff !important;
+}
+.info-panel-left {
+  background: url(../img/info-panel-right.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: top center;
+  background-size: 100%;
+  left: 90%;
+  padding-left: 100px;
+}
+.info-panel-right {
+  background: url(../img/info-panel-left.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: top center;
+  background-size: 100%;
+  left: -105%;
+  padding-right: 50px;
+}
+.info-panel-left .close-block {
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  top: 24px;
+  left: 85%;
+  cursor: pointer;
+  color: transparent;
+}
+.info-panel-right .close-block {
+  position: absolute;
+  display: block;
+  height: 50px;
+  width: 50px;
+  top: 24px;
+  left: 4%;
+  cursor: pointer;
+  color: transparent;
+}
+.info-panel-left p, .info-panel-right p { 
+  text-align: left;
+  margin-bottom: 5px;
+}
+.info-panel-left p strong, .info-panel-right p  strong{ 
+  text-transform: uppercase;
+}
+.info-panel-left .glyphicon, .info-panel-right .glyphicon { 
+  color: #6a32be !important;
+  margin-left: -20px;
+}
+.info-panel-right h5 {
+  padding: 22px 30px 0px 98px;
+}
+iframe {
+  display: block;
+  margin: 60px auto 0;
+}
+.international {  
+  margin-top: 100px;
+}
+.international p {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+}
+.international a {
+  color: #00afec;
+}
+.international img.iphone {
+  width: 170px;
+  margin: 0 auto;
+  margin-top: -100px;
+  display: block;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+
+.intl-rates .see-more {
+  text-align: right;
+  margin-left: -120px;
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.4em;
+  padding-top: 10px;
+}
+.intl-rates .see-more .glyphicon { 
+  font-size: .8em;
+
+}
+.intl-rates-inner {
+    float: left;
+    height: 160px;
+    margin: 0 5px 25px;
+}
+.owl-stage-outer {
+  margin: 0px 0px !important;
+  width: 90% !important;
+}
+.owl-controls {
+  position: absolute;
+  top: 42px;
+  display: block;
+  width: 100%;
+}
+.owl-prev {
+  position: absolute;
+  left: -25px;
+  background: none !important;
+}
+.owl-next {
+  position: absolute;
+  left: 87%;
+  background: none !important;
+}
+.intl-rates-inner h4 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin: 0px;
+  height: 45px;
+}
+.intl-rates-inner h5 {
+  color: #222222;
+  font-size: 2.8rem !important;
+  text-align: center;
+  margin-top: 15px;
+}
+.intl-rates-inner h5 sup {
+    font-size: 1.6rem;
+    top: 0;
+    vertical-align: super;
+}
+.intl-rates-inner h5 small {
+    color: #222222;
+    font-size: 1rem;
+}
+.ratePaneIntl {
+  border-radius: 8px;
+  border: 1px solid #D6D6D6;
+  background: #F5F5F5;
+  text-align: center;
+  padding: 12px 8px 8px 8px;
+  float: none;
+  position: relative;
+  float: left;
+  height: 160px;
+  margin: 0 5px 25px;
+  width: 140px;
+}
+.intl-rates-inner .ratePaneIntl img {
+  height: 48px;
+  margin: 0 auto;
+  padding: 0;
+  width: 72px;
+}
+.intl-rates-inner .owl-stage-outer { 
+  clear: both; 
+}
+.intl-rates-inner { 
+  margin: 0 auto; 
+}
+.intl-rates-inner .owl-stage-outer {
+  margin: 0 auto;
+  width: 605px;
+}
+
+.mobile {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.mobile p {
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2em;
+  text-align: left;
+}
+.store-links{
+  text-align:center;
+}
+.store-links a {
+  border-radius: 7px;
+  background: url(../img/app-rollover-sprite.png) no-repeat;
+  display: inline-block;
+}
+.store-links a img {
+  opacity: 0;
+}
+.store-links a.apple {
+  background-position: 0 0;
+  width: 192px;
+  height: 60px;
+}
+.store-links a.apple:hover {
+  background-position: 0 -66px;
+}
+.store-links a.google {
+  background-position: 0 -131px;
+  width: 192px;
+  height: 60px;
+}
+.store-links a.google:hover {
+  background-position: 0 -198px;
+}
+.topper { display: none; }
+.fixed-wrap {
+  display: none;
+  top: 80px;
+  position: absolute;
+  margin: 0 auto;
+  max-width: 350px;
+  width: 100%;
+  left: 50%;
+}
+
+.fixed-toggle {
+  left: -49%;
+}
+.fixed-toggle .btn {
+  text-transform: capitalize;
+  border-radius: 0px !important;
+  background-color: #fff;
+  color: #000;
+  box-shadow: none;
+  font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+  border: 1px solid #999;
+  width: 49.5%;
+}
+.fixed-toggle .btn.active {
+  color: #fff;
+  background-color: rgba(31,168,227,1);
+  box-shadow: none;
+}
+@media screen and (min-width:1300px) {
+  .mobile { padding-bottom: 250px; }
+}
+@media screen and (min-width:1600px) {
+  .mobile { padding-bottom: 300px; }
+}
+@media screen and (min-width:970px) {
+  .row.hero .primary.col-md-6:first-child {
+    padding-right: 40px;
+    position: relative;
+  }
+  .row.hero .primary.col-md-6:last-child {
+    border-left: 2px solid #999;
+    padding-left: 40px;
+    position: relative;
+  }
+  .row.hero.info-active .primary.col-md-6:last-child {
+    border-left: none;
+    padding-left: 40px;
+    position: relative;
+  }
+}
+@media screen and (max-width:970px) {
+  #plans {
+    padding-top: 20px;
+  }
+  h1 { font-size: 2em;}
+  h2 { font-size: 1.8em; }
+  .return-cust { margin-top: 50px; }
+  .international { margin-top: 20px; }
+  .intl-rates .see-more {
+     text-align: left; 
+     margin-left: 0px; 
+  }
+  .ratePaneIntl { margin: 10px auto; }
+  .iphone { float: right; }
+  .mobile { margin-top: 200px; padding-bottom: 0px; }
+  .mobile .plan-btn {
+    margin-bottom: 10px;
+  }
+  .mobile .store-links a {
+    margin-bottom: 10px;
+  }
+  .mobile br:last-of-type {
+    display: none;
+  }
+  .topper {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+  .topper img { width: 100%; }
+  .info-panel-left {
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: none;
+    background-color: rgba(31,168,227,1);
+}
+  .info-panel-right {
+    width: 100%;
+    display: block;
+    position: relative;
+    left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: none;
+    background-color: rgba(31,168,227,1);
+  }
+  .info-panel-right h5 {
+    padding: 0px;
+  }
+  .info-panel-right iframe {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .info-panel-left .close-block, .info-panel-right .close-block {
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 40px;
+    top: -10px;
+    left: 4%;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .info-panel-left .close-block {
+    top: 5px;
+  }
+}
+@media screen and (max-width:768px) {
+  .plans-content > .container.wrap {
+    overflow-x: hidden;
+  }
+  #plans {
+   background-image: url(../img/plans_top_bg_767.jpg), url(../img/plans_mobile_bg_767.jpg); 
+  }
+  h1 { font-size: 1.5em; margin-bottom: 90px; margin-top: 10px!important; }
+  .fixed-wrap {
+    display: block;
+  }
+  h2 { text-align: center; }
+  h3 { font-size: 1.55em; }
+	
+	.fixed-wrap {
+  top: 84px;
+}
+	
+}
+@media screen and (max-width:768px) and (min-width: 480px) {
+  .mobile p {
+    text-align: center;
+  }
+  .ratePaneIntl, .iphone {
+    float: none !important;
+  }
+	
+h1 { font-size: 1.25em; margin-bottom: 90px; margin-top: 10px!important; }
+	
+}
+@media screen and (max-width:768px) and (min-width: 600px) {
+  .mobile { padding-bottom: 285px; }
+}
+@media screen and (max-width:599px) and (min-width: 480px) {
+  .mobile { padding-bottom: 225px; }
+}
+@media screen and (max-width:480px) {
+  #plans {
+    background-image: url(../img/plans_top_bg_480.jpg), url(../img/plans_mobile_bg_480.jpg); 
+  }
+  .international img.iphone {
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: block;
+    background-color: transparent;
+    padding: 0 10px;
+  } 
+  .ratePaneIntl { width: 100% }
+  .intl-rates-inner h2 {
+    color: #222222;
+    font-size: 1.8rem !important;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .mobile .plan-btn {
+    margin: 0 auto;
+/*    float: right;*/
+  }
+  .mobile br:last-of-type {
+    display: block;
+  }
+  .store-links {
+    text-align: right;
+    margin-top: 42px;
+  }
+  .store-links a {
+    display: inline-block;
+    float: right;
+    margin-left: 100%;
+  }
+	
+	h1 { font-size: 1em; margin-bottom: 90px; margin-top: 10px!important; }
+	
+		.fixed-wrap {
+  top: 74px;
+}
+}
+
+@media screen and (max-width:360px) {
+  .iphone {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 25px !important;
+  }
+}
+
+
+

@@ -1,0 +1,108 @@
+
+/* Variables */
+/* Variables */
+/*Colors */
+/* Fonts */
+/*mixins*/
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#products {
+  padding-top: 90px;
+}
+#products .product {
+  float: left;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin: 0 8px 40px;
+  width:42%;
+}
+
+#products .productpb {
+  float: left;
+  font: normal normal normal 14px 'Proxima Nova', sans-serif;
+  font-size: 16px;
+  margin: 0 8px 40px;
+  width: 30%;
+}
+
+#products .product .product-inner a.mj-btn.blue-white.buy.products-slim-buttons{
+	position:static;
+	margin:46px auto auto;
+	top:auto; left:auto;
+}
+
+@media (max-width: 767px) {
+  #products .product {
+    width: 100%;
+    margin: 0 0 0px;
+  }
+  
+}
+#products .product .product-inner {
+  position: relative;
+}
+
+#products .productpb .product-inner {
+  position: relative;
+}
+@media (max-width: 992px) {
+  #products .product > .product-inner {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {  
+ #products .product .product-inner a.mj-btn.blue-white.buy.products-slim-buttons{
+	position:static;
+	margin: auto auto;
+	top:auto; left:auto;
+} 
+}
+  
+
+@media (max-width: 767px) {
+  #products .product .product-inner {
+    width: 100%;
+	padding-top:30px;
+	margin-bottom:30px;
+  }
+}
+#products .product .product-inner h4 {
+  margin: 30px 0 5px;
+  color: #8a9598;
+  font: normal normal 300 14px 'Proxima Nova', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+#products .product .product-inner p {
+  color: #45b941;
+  margin-bottom: 5px;
+}
+#products .product .product-inner a.buy {
+  font: normal normal 400 14px 'Proxima Nova', sans-serif;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -53px;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+#products .product .product-inner a.buy:hover {
+  font: normal normal 400 14px 'Proxima Nova', sans-serif;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -53px;
+  font-size: 15px;
+  padding: 9px 19px;
+  border: 1px solid #1fa8e3;
+}

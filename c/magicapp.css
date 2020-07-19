@@ -1,0 +1,512 @@
+.stack { font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif; }
+.stack .container { padding: 0; }
+.stack h1.section-heading { font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif; }
+.stack .text-block h1 {
+    color: #111;
+    font-family: "Proxima Nova", "Helvetica Neue", Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.stack .text-block h3 {
+    color: #00adef;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.stack .text-block h3 img { height: 20px; }
+
+.stack ul {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.features{
+background-color: #fff;
+padding: 22px 50px;
+margin: 10px 44px 40px!important;
+border: solid 1px #ccc;
+}
+
+@media screen and (max-width:992px) {
+.features{
+	padding: 4px 40px;
+	margin: 6px 18px 32px!important;
+	border: none;
+	}
+}
+
+@media screen and (max-width:480px) {
+.features{
+	padding: 4px 22px;
+	margin: 6px 18px 12px!important;
+	}
+}
+
+.stack ul li {
+    background: url('../img/check-blue-sm.png') no-repeat 0 3px;
+    color: #888888;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    padding-left: 22px;
+}
+
+.stack .text-block h3 b {
+    font-weight: 800;
+}
+
+.app-links {
+    margin: 10px auto 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.app-links img {
+    display: inline-block;
+    height: 40px;
+    margin-right: 10px;
+}
+.app-links img:hover { opacity: .45; }
+
+.stack-graphic {
+    position: relative;
+    text-align: center;
+}
+.stack-graphic .callout-ios {
+    left: 50%;
+    margin-left: 20px;
+    position: absolute;
+    top: -25px;
+    width: 130px;
+}
+.stack-graphic .iphone-photo {
+    position: relative;
+    top: -40px;
+    width: 220px;
+}
+
+#stack-1 .app-links {
+    margin: 15px 0 75px;
+}
+
+#stack-2 {
+    background: url(../img/bg-stack-iphone.jpg) repeat-x left top;
+    padding-bottom: 50px;
+}
+#stack-2 .text-block {
+    margin: 0 auto;
+    width: 90%;
+}
+#stack-2 .text-block h2 {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    padding: 0 3px 0 0;
+    text-align: left;
+    text-transform: none;
+    vertical-align: middle;
+}
+.es #stack-2 .text-block h2 { font-size: 1.8rem; }
+
+#stack-2 .text-block img {
+    display: inline-block;
+    max-width: 195px;
+    position: relative;
+    top: -10px;
+}
+#stack-2 .text-block h3 {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.4;
+    margin-top: 0;
+    text-align: left;
+}
+#stack-2 ul {
+    margin: 0 0 10px;
+    width: 95%;
+	clear: both;
+}
+#stack-2 ul li {
+    background: url(../img/check-purple.png) no-repeat 0 3px;
+    color: #ffffff;
+    width: auto;
+}
+#stack-2 .learn-more {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+#stack-2 .appstore-link, #stack-2 .appstore-link-bg {
+    display: inline-block;
+    margin: 0 auto;
+    width: 168px;
+}
+#stack-2 .appstore-link:hover { opacity: .45; }
+#stack-2 .appstore-link-bg {
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 10px 10px;
+    opacity: 1;
+}
+#stack-2 .video {
+    display: inline-block;
+    max-width: 288px;
+    vertical-align: middle;
+    width: 100%;
+}
+#stack-2 .vimeo {
+    height: 0;
+    padding-bottom: 45%;
+    padding-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+#stack-2 .vimeo iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.mobile-app-icons {
+    display: block;
+    margin: 15px auto;
+    max-width: 364px;
+    position: relative;
+    text-align: center;
+    top: -30px;
+    width: 75%;
+}
+.mobile-app-icons img { width: 100%; }
+
+#stack-3 table { margin-bottom: 0; }
+#stack-3 td, #stack-3 th {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+#stack-3 h2.section-heading {
+    color: #888;
+    font-weight: 200;
+    text-align: center;
+}
+#stack-3 table th { border-color: #ffffff; }
+#stack-3 table td {
+    border-color: #f1f1f1;
+    text-align: center;
+}
+#stack-3 table td.tcol-1 { text-align: left; }
+#stack-3 table .shaded td {
+    background-color: #f0e5f5;
+    border-top: 0;
+    border-bottom: 1px solid #ffffff;
+}
+#stack-3 img.check {
+    height: 13px;
+    width: 16px;
+}
+#stack-3 table th.tcol-2, #stack-3 table th.tcol-3 {
+    background-color: #262626;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+}
+#stack-3 table .colspan {
+    background-color: #742f8a;
+    color: #ffffff;
+    text-align: left;
+}
+#stack-3 table .colspan.gray {
+    background-color: #f1f1f1;
+    color: #262626;
+}
+#stack-3 table .tcol-1 { width: 60%; }
+#stack-3 table .tcol-2 { width: 20%; }
+#stack-3 table .tcol-3 { width: 20%; }
+
+#stack-4 {
+    background: url(../img/bg-stack-4-sm.jpg) repeat-x 0 0;
+    color: #ffffff;
+    padding: 30px 0;
+}
+#stack-4 .text-block { padding: 0 15px; }
+#stack-4 h2 {
+    color: #ffffff;
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 auto;
+    max-width: 300px;
+    padding: 0 0 10px;
+    text-transform: none;
+}
+#stack-4 p { font-size: 1.6rem; }
+#stack-4 .appstore-link-bg {
+    background-color: #ffffff;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 0 10px 10px;
+    opacity: 1;
+}
+#stack-4 .app-links img { margin-right: 0; }
+#stack-4 .video {
+    display: block;
+    margin: 0 auto;
+    max-width: 288px;
+    vertical-align: middle;
+    width: 100%;
+}
+#stack-4 .vimeo {
+    height: 0;
+    padding-bottom: 45%;
+    padding-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+#stack-4 .vimeo iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (min-width:380px) {
+	.es #stack-2 .text-block h2 { font-size: 1.8rem; }
+}
+
+@media screen and (min-width:480px) {
+	.es #stack-2 .text-block h2 { font-size: 1.8rem; }
+}
+
+@media screen and (min-width:768px) {
+
+    #stack-1 .container {
+        padding-top: 30px;
+    }
+    #stack-1 .text-block h1 { font-size: 4.8rem; }
+    #stack-1 .text-block h3 {
+        font-size: 3.4rem;
+        padding-bottom: 10px;
+    }
+    #stack-1 .text-block h3 img { height: auto; }
+    #stack-1 ul {
+        margin-bottom: 25px;
+        text-align: center;
+        width: 59%;
+    }
+    #stack-1 ul li {
+        margin-bottom: 10px;
+        text-align: left;
+    }
+	
+	
+    #stack-1 .app-links { margin-bottom: 105px; }
+    #stack-1 .app-links img { height: 50px; }
+
+    #stack-2 .container {
+        margin-bottom: -160px;
+        padding-top: 90px;
+    }
+    #stack-2 {
+        background: url(../img/bg-stack-iphone-md.jpg) repeat-x left top;
+        padding-bottom: 50px;
+    }
+    .stack-graphic .iphone-photo {
+        float: left;
+        top: -165px;
+        width: auto;
+    }
+    .stack-graphic .callout-ios {
+        left: 170px;
+        top: -140px;
+        width: 170px;
+    }
+    #stack-2 .text-block {
+        float: left;
+        padding-left: 45px;
+        width: 420px; 
+    }
+    .es #stack-2 .text-block { width: 420px; }
+    
+	
+	#stack-2 .text-block h2 {
+        float: left;
+        font-size: 2rem;
+        padding-right: 18px;
+		margin-bottom: 8px;
+		width: 520px;
+    }
+    .es #stack-2 .text-block h2 { font-size: 1.8rem; }
+    #stack-2 .text-block img {
+        float: left;
+		
+    }
+    #stack-2 .text-block { margin-bottom: 15px; }
+    #stack-2 .text-block h3 { clear: both; }
+    #stack-2 .learn-more {
+        float: left;
+        padding-left: 45px;
+        width: 420px;
+    }
+    #stack-2 .video { width: 50%; }
+    #stack-2 .appstore-link {
+        display: block;
+        margin: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    #stack-2 .appstore-link-bg {
+        border-radius: 6px;
+        margin: 0 10px 0 0;
+        vertical-align: middle;
+    }
+
+    #stack-3 h2.section-heading {
+        font-size: 4rem;
+        text-align: left;
+		margin-left: 42px;
+    }
+    #stack-3 td, #stack-3 th {
+        font-size: 1.6rem;
+        line-height: 1.2;
+        padding: 20px 20px 17px;
+    }
+    #stack-3 th { padding: 12px 30px 10px; }
+    #stack-3 table tbody .tcol-0.hidden-xs {
+        background-color: #742f8a;
+        color: #ffffff;
+        width: 15%;
+    }
+    #stack-3 table .tcol-0.hidden-xs.gray {
+        background-color: #f1f1f1;
+        color: #262626;
+    }
+    #stack-3 table .tcol-1 { width: 45%; }
+    #stack-3 table .tcol-2 { width: 20%; }
+    #stack-3 table .tcol-3 { width: 20%; }
+}
+
+@media screen and (min-width:992px) {
+    #stack-1 ul {
+        float: right;
+        margin-bottom: 95px;
+        padding-left: 54px;
+		width: 64%;
+    }
+    .app-links {
+        margin: 0;
+        width: auto;
+    }
+    #stack-1 .app-links {
+        bottom: 30px;
+        margin-bottom: 0;
+        position: absolute;
+        right: 194px;
+    }
+    #stack-2 {
+        background: url(../img/bg-stack-iphone-lg.jpg) repeat-x center top;
+        padding-bottom: 50px;
+    }
+    #stack-2 .container {
+        margin-bottom: -224px;
+        padding-top: 70px;
+    }
+    .stack-graphic .iphone-photo {
+        left: 60px;
+        top: -230px;
+    }
+    .stack-graphic .callout-ios {
+        left: 220px;
+        top: -200px;
+        width: auto;
+    }
+    #stack-2 .text-block {
+        padding-left: 95px;
+        width: 520px;
+    }
+    #stack-2 .text-block img {
+        position: absolute;
+    right: 70px;
+    top: 70px;
+    height: 77px;
+    }
+    #stack-2 .text-block h2 {
+        font-size: 2.6rem;
+        line-height: 1.1;
+        padding-top: 0px;
+		margin-bottom: 12px;
+    }
+    .es #stack-2 .text-block h2 {
+        font-size: 2.4rem;
+        margin-bottom: 5px;
+    }
+    #stack-2 ul { width: auto; }
+    .es #stack-2 ul { padding-right: 12px; padding-top: 6px; width: 500px; }
+    .stack ul li {
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+        padding-left: 28px;
+    }
+    .es .stack ul li { margin-bottom: 10px; }
+	
+    #stack-2 .text-block h3 {
+		font-size: 2.6rem;
+        line-height: 1.1;
+	padding-bottom: 6px;
+	}
+	
+    #stack-2 .video {
+        position: absolute;
+        right: 45px;
+        top: 153px;
+        width: 200px;
+    }
+    /*#stack-2 .appstore-link {
+        position: absolute;
+        right: 45px;
+        top: 310px;
+        width: auto;
+    }*/
+    #stack-2 .appstore-link-bg {
+        margin-right: 0;
+        position: absolute;
+        right: 60px;
+        top: 310px;
+    }
+
+    #stack-3 {
+        background: #ffffff; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmUyZTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background: -moz-linear-gradient(top,  #ffffff 0%, #e2e2e2 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e2e2e2)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #ffffff 0%,#e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #ffffff 0%,#e2e2e2 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #ffffff 0%,#e2e2e2 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #ffffff 0%,#e2e2e2 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-8 */
+    }
+    #stack-3 .shadow {
+        background: url(../img/bg-stack-3-shadow.png) no-repeat center bottom;
+    }
+    #stack-3 table { border-bottom: 2px solid #bbbbbb; margin-bottom: 20px; }
+    #stack-3 th { padding: 18px 30px 16px; }
+
+    #stack-3 table td { background-color: #ffffff; }
+    #stack-4 .video { max-width: 300px; }
+    #stack-4 h2 { max-width: 550px; }
+}
